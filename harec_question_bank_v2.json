@@ -1,0 +1,3915 @@
+[
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What fuse rating should be fitted in a 230V mains plug for a power supply consuming 500W to provide maximum protection?",
+    "Correct answer": "3 A",
+    "3 incorrect answers": [
+      "5 A",
+      "13 A",
+      "16 A"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.4.4, p. 298 / Sample Exam Q1",
+    "Explanation": "500W at 230V draws I = P/V = 500/230 = 2.17A. A 3A fuse is the lowest standard plug fuse rating that accommodates 2.17A without blowing during normal operation."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "According to Irish Wireless Telegraphy Regulations 2009, which guidelines must be followed for non-ionising radiation exposure limits?",
+    "Correct answer": "ICNIRP guidelines",
+    "3 incorrect answers": [
+      "FCC OET Bulletin 65",
+      "RSGB PAEC-3 guidelines",
+      "OSHA Safety Limits"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.1, p. 292 / Wireless Telegraphy Regulations 2009",
+    "Explanation": "Irish law specifically mandates compliance with the limits set by the International Commission on Non-Ionizing Radiation Protection (ICNIRP)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What is the primary biological hazard associated with exposure to high-intensity RF electromagnetic fields?",
+    "Correct answer": "Heating of body tissue",
+    "3 incorrect answers": [
+      "Ionization of body cells",
+      "Nuclear radiation poisoning",
+      "Instantaneous nerve destruction"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.8.3, p. 303",
+    "Explanation": "RF EMF is non-ionising radiation; its principal adverse biological effect is the thermal heating of human tissue."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "Which earthing system is standardly used in Irish mains power installations?",
+    "Correct answer": "TN-C-S",
+    "3 incorrect answers": [
+      "TT",
+      "TN-S",
+      "IT"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.4.2, p. 296",
+    "Explanation": "Ireland uses the TN-C-S (Terra Neutral Combined and Separated) earthing system. Operators must ensure all earths are properly bonded."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "Why is it dangerous to have multiple unbonded earth rods in an Irish station setup?",
+    "Correct answer": "It can create lethal potential differences during a supply fault",
+    "3 incorrect answers": [
+      "It increases antenna SWR to unsafe levels",
+      "It causes transmitter harmonic splatter",
+      "It destroys the receiver front-end RF amplifier"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.4.2, p. 296",
+    "Explanation": "Unbonded earths can develop dangerous voltage differences between chassis/grounds during external electrical supply faults."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What electrical current level flowing through the human chest cavity is considered potentially fatal by causing ventricular fibrillation?",
+    "Correct answer": "50 mA",
+    "3 incorrect answers": [
+      "1 mA",
+      "5 mA",
+      "10 A"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.3, p. 293",
+    "Explanation": "Currents as small as 50 mA across the heart can trigger fatal ventricular fibrillation. Current kills, not just voltage."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "When adjusting live high-voltage valve equipment, what safety rule should always be observed?",
+    "Correct answer": "Keep one hand behind your back",
+    "3 incorrect answers": [
+      "Wear rubber gloves on both hands",
+      "Touch the chassis with both thumbs",
+      "Keep the mains earth disconnected"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.3, p. 293 & Ch 19.4.6, p. 299",
+    "Explanation": "Keeping one hand behind your back prevents forming a current path across the chest cavity between two hands."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What tool must be used to ensure high-voltage smoothing capacitors in a power supply are fully discharged before touching internal components?",
+    "Correct answer": "A dedicated shorting stick",
+    "3 incorrect answers": [
+      "A standard screwdriver handle",
+      "An insulated pair of pliers",
+      "A multimeter on the 10A current scale"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.4.5, p. 298",
+    "Explanation": "Bleeder resistors can fail; a shorting stick must be used to guarantee smoothing capacitors are discharged before servicing."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What is the minimum recommended height above standing level for active antenna elements to avoid human contact hazards?",
+    "Correct answer": "2.4 m",
+    "3 incorrect answers": [
+      "1.2 m",
+      "3.7 m",
+      "6.4 m"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.8.3, p. 304",
+    "Explanation": "Antenna elements should be at least 2.4 m above any surface where people stand to avoid touch and burn hazards."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "Guy ropes supporting a guyed antenna mast should be secured to the ground at what minimum distance from the base?",
+    "Correct answer": "60% to 80% of the mast height",
+    "3 incorrect answers": [
+      "20% of the mast height",
+      "150% of the mast height",
+      "Twice the mast height"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.6.1, p. 299 / Sample Exam Q4",
+    "Explanation": "Engineering best practice specifies securing guy anchors 60% to 80% of the total mast height away from the base."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "How far away from overhead power lines should an antenna mast or tower be located?",
+    "Correct answer": "At least twice its own height",
+    "3 incorrect answers": [
+      "Equal to its own height",
+      "At least 5 metres",
+      "At least 50 metres"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.6.1, p. 299",
+    "Explanation": "To prevent catastrophic contact if the mast or tower falls, it must be positioned at least twice its height away from power lines."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What is the first action you should take if you suspect a person is receiving an electric shock?",
+    "Correct answer": "Shut off the mains power before touching them",
+    "3 incorrect answers": [
+      "Immediately pull them away with your bare hands",
+      "Call an ambulance",
+      "Begin CPR immediately"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.3.1, p. 293",
+    "Explanation": "Never touch a victim of electric shock until the power source is shut off, to avoid becoming part of the circuit yourself."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What trip current rating is standard for a Residual Current Device (RCD) installed on a station mains supply?",
+    "Correct answer": "30 mA",
+    "3 incorrect answers": [
+      "5 mA",
+      "100 mA",
+      "3 A"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.4.1, p. 295",
+    "Explanation": "An RCD designed for personal protection disconnects supply in milliseconds if a leakage current of 30 mA or more is detected."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "Why are the ends of a half-wave dipole antenna particularly dangerous regarding RF contact?",
+    "Correct answer": "RF voltage is highest at the ends of a half-wave dipole",
+    "3 incorrect answers": [
+      "RF current is highest at the ends of a half-wave dipole",
+      "The magnetic field is strongest at the ends",
+      "The ends carry DC high voltage from the transmitter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.3.2, p. 294 & Ch 15.7.1, p. 229",
+    "Explanation": "A resonant half-wave dipole exhibits maximum RF voltage at its ends, presenting an extreme RF burn and arc hazard."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What is the required certificate for any electrical mains wiring work carried out on a station installation in Ireland?",
+    "Correct answer": "Safe Electric Certificate",
+    "3 incorrect answers": [
+      "CE Compliance Pass",
+      "ComReg Operating Permit",
+      "ICNIRP Field Clearance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.4.2, p. 296 / Syllabus A.1",
+    "Explanation": "Under Irish regulations, electrical installation work must be performed or certified by a registered Safe Electric contractor."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "Which directive restricts the use of hazardous substances like lead and cadmium in electronic equipment?",
+    "Correct answer": "RoHS Directive",
+    "3 incorrect answers": [
+      "EMC Directive",
+      "RED Directive",
+      "CEPT T/R 61-01"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.7, p. 300 / Syllabus A.1",
+    "Explanation": "The EU Reduction of Hazardous Substances (RoHS) directive restricts toxic materials in electronic products."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "When soldering radio circuits, what safety precaution should be taken regarding chemical fumes?",
+    "Correct answer": "Solder in a well-ventilated area",
+    "3 incorrect answers": [
+      "Wear ear protection",
+      "Keep a fire extinguisher in hand",
+      "Disconnect the earth wire"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.7, p. 300",
+    "Explanation": "Flux fumes from soldering can cause respiratory irritation and asthma; soldering must occur in well-ventilated spaces."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "Under ComReg Guidelines 09/45, how must station equipment be identified and labelled?",
+    "Correct answer": "All controls, meters, and terminals must be clearly labelled with manufacturer trademark, type, and serial number",
+    "3 incorrect answers": [
+      "Only the main antenna feedline needs a red danger tag",
+      "Equipment requires a ComReg barcoded sticker on the front panel",
+      "No physical labels are required if logged in the station logbook"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.2, p. 293",
+    "Explanation": "ComReg regulations require clear labelling of controls, terminals, power supply details, manufacturer trademark, model, and serial number."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "What type of burn is caused by direct physical contact with an active transmitting antenna?",
+    "Correct answer": "RF burn",
+    "3 incorrect answers": [
+      "Thermal flame burn",
+      "Chemical acid burn",
+      "Beta radiation burn"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.3.2, p. 294",
+    "Explanation": "Direct contact or arcing from energised RF conductors causes painful deep-tissue RF burns."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.1 Safety",
+    "Question": "For a 100W HF dipole at 7 MHz, what is the key factor in ensuring general public exposure stays below ICNIRP limits?",
+    "Correct answer": "Mounting the antenna at adequate height and ensuring minimum physical separation",
+    "3 incorrect answers": [
+      "Using a lower loss coaxial cable",
+      "Installing a low-pass filter at the transmitter",
+      "Solder-tinning all earth wire connections"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 19.8.5, p. 309",
+    "Explanation": "Public compliance is primarily achieved by positioning the antenna high enough and far enough away so people cannot enter the high-field reactive near zone."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What component fitted on power or audio cables acts as a common-mode choke to suppress RF breakthrough in sensitive equipment?",
+    "Correct answer": "Clamp-on ferrite cores/rings",
+    "3 incorrect answers": [
+      "Air-core series inductors",
+      "100uF electrolytic capacitors",
+      "Zener diodes"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.5, p. 286 / Sample Exam Q6",
+    "Explanation": "Ferrite rings or clamp-on cores placed on interconnecting cables present high impedance to common-mode RF currents, suppressing breakthrough."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What type of interference is generated when a transmitter power amplifier is overdriven into non-linear operation?",
+    "Correct answer": "Harmonic distortion and splatter",
+    "3 incorrect answers": [
+      "Image frequency response",
+      "Thermal Johnson noise",
+      "Phase delay dispersion"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.2, p. 287 & Ch 11.4.1.2, p. 151",
+    "Explanation": "Overdriving linear amplifiers causes non-linear distortion, resulting in unwanted harmonics and wideband sideband splatter."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What causes key clicks in a CW transmission?",
+    "Correct answer": "Unfiltered keying waveforms with excessively steep rise and fall times",
+    "3 incorrect answers": [
+      "Transmitting CW on an SSB frequency",
+      "Using a mechanical Morse key instead of an electronic keyer",
+      "High antenna SWR"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 11.8.1, p. 160 & Ch 18.2, p. 288",
+    "Explanation": "Abrupt switching of the RF carrier produces very sharp rise/fall times, generating broad sideband pulses known as key clicks."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What is the term for a non-susceptible electronic device malfunctioning purely due to strong legitimate local RF emissions exceeding its shielding?",
+    "Correct answer": "Breakthrough (or lack of immunity)",
+    "3 incorrect answers": [
+      "Spurious radiation",
+      "Cross-modulation",
+      "Co-channel interference"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.3, p. 283",
+    "Explanation": "When equipment malfunctions due to strong external RF signals because the device itself lacks adequate internal immunity or shielding, it is called RF breakthrough."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "Where does intermodulation distortion (IMD) primarily originate in a receiver?",
+    "Correct answer": "In non-linear stages such as mixers or overdriven RF amplifiers when two strong signals mix",
+    "3 incorrect answers": [
+      "In the audio speaker voice coil",
+      "In the antenna coaxial dielectric",
+      "In the DC power supply bridge rectifier"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.8, p. 205 & Ch 18.2, p. 288",
+    "Explanation": "Intermodulation occurs when two or more strong out-of-band signals mix in non-linear receiver stages (RF amp/mixer) to produce phantom signals."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What type of filter should be connected at the output of an HF transmitter to suppress unwanted harmonic emissions above 30 MHz?",
+    "Correct answer": "Low-pass filter",
+    "3 incorrect answers": [
+      "High-pass filter",
+      "Band-stop filter",
+      "Notch filter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.5, p. 286",
+    "Explanation": "A low-pass filter with a cutoff near 30 MHz passes all HF signals while heavily attenuating VHF/UHF harmonics."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What directive ensures that commercial electrical equipment sold in the EU possesses adequate immunity and low emissions?",
+    "Correct answer": "EMC Directive and Radio Equipment Directive (RED)",
+    "3 incorrect answers": [
+      "ICNIRP 2020 Directive",
+      "ITU Region 1 Band Plan",
+      "Wireless Telegraphy 1926 Act"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1, p. 282 & Ch 22.12, p. 332",
+    "Explanation": "The EU Electromagnetic Compatibility (EMC) Directive and Radio Equipment Directive (RED) require CE-marked products to meet emission and immunity standards."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "How can common-mode RF current on the outer braid of a coaxial feedline be minimized?",
+    "Correct answer": "By installing a 1:1 current balun or coaxial choke at the antenna feed point",
+    "3 incorrect answers": [
+      "By increasing transmitter RF output power",
+      "By removing the coaxial outer plastic jacket",
+      "By lengthening the transmission line by 1 metre"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.11.2, p. 222 & Ch 18.1.5, p. 285",
+    "Explanation": "A 1:1 current balun or choke coil presents high impedance to RF currents flowing on the outside of the coax shield."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What is cross-modulation in a receiver?",
+    "Correct answer": "The modulation of a desired weak signal by an unwanted strong modulating signal in a non-linear stage",
+    "3 incorrect answers": [
+      "The mixing of IF frequencies with the local oscillator",
+      "The reflection of signals from ionospheric E-layers",
+      "The conversion of AM signals to FM in the detector"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.9, p. 205",
+    "Explanation": "Cross-modulation occurs when the modulation from an undesired strong signal transfers onto the carrier of a desired weak signal inside a non-linear RF stage."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What unwanted emissions are produced by a transmitter outside its allocated operating bandwidth?",
+    "Correct answer": "Spurious emissions",
+    "3 incorrect answers": [
+      "Fundamental radiations",
+      "Harmonic resonance waves",
+      "Baseband audio signals"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.2.1, p. 290",
+    "Explanation": "Spurious emissions include harmonics, parasitic oscillations, and intermodulation products outside the permitted transmission bandwidth."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What simple measure can help prevent mains power lines from conducting RF interference into an amateur transceiver?",
+    "Correct answer": "Fitting a mains RF line filter with ferrite chokes",
+    "3 incorrect answers": [
+      "Connecting a variable capacitor across the live and neutral wires",
+      "Removing the earth pin from the mains plug",
+      "Increasing the transmitter carrier frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.5, p. 286",
+    "Explanation": "Mains RF line filters stop conducted RF energy from entering or leaving equipment via electrical supply lines."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "Why should transmitter enclosure covers and shielding panels remain tightly secured during operation?",
+    "Correct answer": "To prevent direct RF radiation and maintain EMC immunity and electrical safety",
+    "3 incorrect answers": [
+      "To increase the resonant frequency of the internal VFO",
+      "To prevent DC power leakage into the antenna",
+      "To keep the linear amplifier transistors cool"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.5, p. 286 & Ch 19.8.6, p. 310",
+    "Explanation": "Removing metal covers allows direct unshielded RF radiation to escape, causing severe local interference and safety hazards."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What is the effect of FM over-deviation in a transmitter?",
+    "Correct answer": "Excessive bandwidth occupation causing adjacent channel interference (splatter)",
+    "3 incorrect answers": [
+      "Reduced audio output at the receiver",
+      "Decreased transmitter current drain",
+      "Immediate destruction of the antenna balun"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 11.4.2, p. 155 & Ch 18.2, p. 289",
+    "Explanation": "Exceeding the permitted peak frequency deviation expands the transmitted FM bandwidth beyond limits, spilling into adjacent channels."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What component can be inserted into an audio lead to eliminate RF rectification in an external amplifier?",
+    "Correct answer": "A ferrite choke or small bypass capacitor",
+    "3 incorrect answers": [
+      "A 100 ohm 50 watt power resistor",
+      "A step-up transformer",
+      "A quarter-wave coaxial stub"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.5, p. 286",
+    "Explanation": "Ferrite chokes or small high-frequency ceramic capacitors bypass RF signals to ground before they reach non-linear semiconductor junctions."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What is 'desensitisation' in a radio receiver?",
+    "Correct answer": "A reduction in receiver gain caused by a strong nearby off-frequency signal overloading the front end",
+    "3 incorrect answers": [
+      "The loss of sensitivity due to low battery voltage",
+      "The audio distortion occurring during SSB reception",
+      "The thermal noise generated in an un-tuned antenna"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.7, p. 205",
+    "Explanation": "Desensitisation (blocking) occurs when a very strong off-frequency signal drives receiver AGC or RF stages into gain reduction."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "How does a band-pass filter behave?",
+    "Correct answer": "It passes frequencies within a specified range and attenuates frequencies above and below it",
+    "3 incorrect answers": [
+      "It passes all frequencies except one specific notch frequency",
+      "It passes only DC currents",
+      "It attenuates all frequencies equally"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.4.2, p. 106 / Sample Exam Q8",
+    "Explanation": "A band-pass filter allows signals within a designated frequency band to pass while blocking lower and higher frequencies."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What type of interference is caused when strong RF fields cause metal joints or corrosion near an antenna to act as rectifying diodes?",
+    "Correct answer": "External intermodulation (rusty bolt effect)",
+    "3 incorrect answers": [
+      "Direct wave scattering",
+      "Atmospheric QRN noise",
+      "Ionospheric dispersion"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.4, p. 284",
+    "Explanation": "Corroded metal structures in strong RF fields act as non-linear diodes, re-radiating intermodulation products across spectrum bands."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.2 Interference and Immunity",
+    "Question": "What is the first step when a neighbor reports RF breakthrough on an older domestic audio device?",
+    "Correct answer": "Check if your station emissions are clean, and inspect/filter feedlines and the affected device's cables",
+    "3 incorrect answers": [
+      "Immediately double your transmit power to override noise",
+      "Tell the neighbor amateur radio is exempt from all laws",
+      "Replace your transmitter with an AM unit"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 18.1.5, p. 284",
+    "Explanation": "Verify your station operates cleanly without spurious output, then install ferrite chokes on affected external speaker/power cables."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What power is dissipated in a 5 ohm resistor when a current of 10 A flows through it?",
+    "Correct answer": "500 W",
+    "3 incorrect answers": [
+      "50 W",
+      "20 W",
+      "2 W"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.10.1, p. 23 / Sample Exam Q10",
+    "Explanation": "Power P = I^2 * R = (10^2) * 5 = 100 * 5 = 500 Watts."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "In a purely capacitive circuit, what is the phase relationship between alternating current and voltage?",
+    "Correct answer": "Current leads voltage by 90 degrees",
+    "3 incorrect answers": [
+      "Voltage leads current by 90 degrees",
+      "Current and voltage are perfectly in phase",
+      "Current leads voltage by 180 degrees"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.2.3, p. 96 / Sample Exam Q11",
+    "Explanation": "In a capacitor, current leads voltage by 90° (a quarter cycle). In an inductor, current lags voltage by 90°."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What mathematical algorithm is used in DSP to convert time-domain digital signals into the frequency domain?",
+    "Correct answer": "Fast Fourier Transform (FFT)",
+    "3 incorrect answers": [
+      "Direct Digital Synthesis (DDS)",
+      "Finite Impulse Response (FIR)",
+      "Automatic Gain Control (AGC)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 6.2.1, p. 56 / Sample Exam Q12",
+    "Explanation": "The Fast Fourier Transform (FFT) converts amplitude-vs-time digital samples into frequency-domain spectrum data."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "An amateur signal spectrogram shows power concentrated 2.7 kHz ABOVE the carrier frequency. What mode is being used?",
+    "Correct answer": "USB (Upper Sideband)",
+    "3 incorrect answers": [
+      "LSB (Lower Sideband)",
+      "CW (Continuous Wave)",
+      "AM (Amplitude Modulation)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 11.6, p. 157 / Sample Exam Q13",
+    "Explanation": "Upper Sideband (USB) places the voice intelligence in the spectrum segment higher than (above) the suppressed carrier frequency."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the frequency of an electromagnetic wave with a wavelength of 30 metres in free space?",
+    "Correct answer": "10 MHz",
+    "3 incorrect answers": [
+      "3 MHz",
+      "30 MHz",
+      "100 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 5.1.3, p. 41",
+    "Explanation": "f (MHz) = 300 / Wavelength (m) = 300 / 30 = 10 MHz."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the RMS voltage of a sinusoidal AC signal with a peak voltage (Vpeak) of 10 V?",
+    "Correct answer": "7.07 V",
+    "3 incorrect answers": [
+      "5.00 V",
+      "14.14 V",
+      "3.14 V"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 5.1.5, p. 42 / Sample Exam Q30",
+    "Explanation": "Vrms = Vpeak * 0.707 = 10 * 0.707 = 7.07 V."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the absolute power in Watts corresponding to 20 dBW?",
+    "Correct answer": "100 W",
+    "3 incorrect answers": [
+      "20 W",
+      "200 W",
+      "1000 W"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 9.3, p. 118",
+    "Explanation": "20 dBW represents 10^(20/10) = 10^2 = 100 Watts."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "By what factor does power increase when a power ratio is stated as +3 dB?",
+    "Correct answer": "Doubles (factor of 2)",
+    "3 incorrect answers": [
+      "Triples (factor of 3)",
+      "Increases 10 times",
+      "Increases 4 times"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 9.1, p. 117",
+    "Explanation": "A 3 dB power increase represents a doubling of power (+3 dB = x2 power)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "According to Nyquist's sampling theorem, what is the minimum sampling rate required to digitize an analog signal with bandwidth B?",
+    "Correct answer": "At least 2 * B",
+    "3 incorrect answers": [
+      "Equal to B",
+      "At least B / 2",
+      "At least 10 * B"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 6.3.4, p. 61",
+    "Explanation": "The Nyquist rate states that sampling frequency must be at least twice the highest frequency bandwidth of the analog signal."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What formula expresses Ohm's law to calculate resistance when voltage (V) and current (I) are known?",
+    "Correct answer": "R = V / I",
+    "3 incorrect answers": [
+      "R = V * I",
+      "R = I / V",
+      "R = V^2 * I"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.9, p. 22",
+    "Explanation": "Ohm's Law states V = I * R, which transposes to R = V / I."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the unit and dimension symbol for electric charge or battery capacity?",
+    "Correct answer": "Ampere-hour (A·h)",
+    "3 incorrect answers": [
+      "Watt-hour (W·h)",
+      "Volt-ampere (VA)",
+      "Coulomb-per-second"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.2.1, p. 14",
+    "Explanation": "Battery capacity is commonly measured in Ampere-hours (A·h), representing current multiplied by time."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "How long will a fully charged 12V 50 A·h battery run a receiver drawing a steady current of 2 A before depletion?",
+    "Correct answer": "25 hours",
+    "3 incorrect answers": [
+      "50 hours",
+      "12 hours",
+      "100 hours"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.10.3, p. 26",
+    "Explanation": "Time (hours) = Capacity (A·h) / Current (A) = 50 / 2 = 25 hours."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "Convert 500 mV and 2.5 V into a combined total in Volts.",
+    "Correct answer": "3.0 V",
+    "3 incorrect answers": [
+      "2.55 V",
+      "502.5 V",
+      "7.5 V"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.2.3, p. 15",
+    "Explanation": "500 mV = 0.5 V. Therefore, 0.5 V + 2.5 V = 3.0 V."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the fundamental property that distinguishes AC from DC?",
+    "Correct answer": "AC continuously reverses its direction of flow, whereas DC flows in one direction",
+    "3 incorrect answers": [
+      "AC carries high voltage while DC carries low voltage",
+      "DC can travel through capacitors while AC cannot",
+      "AC requires zero resistance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.3.4, p. 17",
+    "Explanation": "Direct Current (DC) flows in a single direction; Alternating Current (AC) reverses direction periodically."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is a harmonic frequency?",
+    "Correct answer": "A signal whose frequency is an exact integer multiple of the fundamental frequency",
+    "3 incorrect answers": [
+      "A frequency exactly half the fundamental frequency",
+      "An unwanted audio noise produced by speakers",
+      "A signal 90 degrees out of phase"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 5.4, p. 45",
+    "Explanation": "A harmonic is an exact integer multiple (2x, 3x, 4x...) of a fundamental signal frequency."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the electric field strength unit of measurement?",
+    "Correct answer": "Volts per metre (V/m)",
+    "3 incorrect answers": [
+      "Watts per square metre (W/m^2)",
+      "Amperes per metre (A/m)",
+      "Ohms per metre (Ω/m)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 7.6, p. 85",
+    "Explanation": "Electric field strength (E-field) is measured in Volts per metre (V/m). Power density is measured in W/m^2."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "How does electric field strength vary with distance (d) from a point source in free space?",
+    "Correct answer": "Inversely proportional to distance (1/d)",
+    "3 incorrect answers": [
+      "Inversely proportional to distance squared (1/d^2)",
+      "Directly proportional to distance",
+      "Does not change with distance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 7.6, p. 85",
+    "Explanation": "Electric field strength (V/m) is inversely proportional to distance (1/d). (Power density is 1/d^2)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What is the velocity of electromagnetic radio waves in a vacuum?",
+    "Correct answer": "Approximately 300,000,000 metres per second (300,000 km/s)",
+    "3 incorrect answers": [
+      "343 metres per second",
+      "30,000 kilometres per second",
+      "3,000,000 metres per second"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 7.1, p. 70",
+    "Explanation": "Radio waves propagate at the speed of light c ≈ 3 x 10^8 m/s (300,000 km/s)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "What orientation of electric field lines defines vertical wave polarization?",
+    "Correct answer": "Electric field lines perpendicular to the Earth's surface",
+    "3 incorrect answers": [
+      "Electric field lines parallel to the Earth's surface",
+      "Magnetic field lines vertical to the Earth's surface",
+      "Rotational circular E-field lines"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 7.8, p. 86 & Ch 15.6, p. 229",
+    "Explanation": "Wave polarization is defined by the direction of the E-field vector. Vertical polarization has E-field lines standing perpendicular to the ground."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.3 Electrical, Electromagnetic, and Radio Theory",
+    "Question": "Calculate total power P dissipated when 20V is applied across a 100 ohm resistor.",
+    "Correct answer": "4 W",
+    "3 incorrect answers": [
+      "20 W",
+      "0.2 W",
+      "400 W"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 3.10.1, p. 23",
+    "Explanation": "P = V^2 / R = (20^2) / 100 = 400 / 100 = 4 Watts."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What is the equivalent resistance of three 120 ohm resistors connected in parallel?",
+    "Correct answer": "40 ohms",
+    "3 incorrect answers": [
+      "360 ohms",
+      "120 ohms",
+      "30 ohms"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 4.2.2, p. 30",
+    "Explanation": "1/Req = 1/120 + 1/120 + 1/120 = 3/120 = 1/40. Therefore Req = 40 ohms."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "How do inductors behave in DC circuits compared to AC circuits?",
+    "Correct answer": "Inductors act as low resistance to DC, but oppose high frequency AC via inductive reactance",
+    "3 incorrect answers": [
+      "Inductors block DC completely while passing high frequency AC easily",
+      "Inductors have infinite resistance to DC",
+      "Inductors behave identically for both DC and AC"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.1.3, p. 91",
+    "Explanation": "At DC (0 Hz), inductive reactance XL = 2*pi*f*L = 0. In AC, XL increases linearly with frequency."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What is the formula for calculating Capacitive Reactance (XC)?",
+    "Correct answer": "XC = 1 / (2 * pi * f * C)",
+    "3 incorrect answers": [
+      "XC = 2 * pi * f * C",
+      "XC = 2 * pi * f * L",
+      "XC = f * C / 2"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.2.4, p. 96",
+    "Explanation": "Capacitive reactance is inversely proportional to frequency and capacitance: XC = 1 / (2*pi*f*C)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What condition defines electrical resonance in a circuit containing inductors and capacitors?",
+    "Correct answer": "Inductive reactance (XL) equals capacitive reactance (XC)",
+    "3 incorrect answers": [
+      "Resistance (R) equals zero",
+      "Capacitive reactance equals zero",
+      "Inductive reactance is double the capacitive reactance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.3.2, p. 98",
+    "Explanation": "Resonance occurs at the frequency fr where XL = XC, causing their reactive oppositions to cancel out."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "How does a parallel LC tuned circuit behave at its resonant frequency when connected in series with a load?",
+    "Correct answer": "It acts as a high-impedance rejector (blocks the resonant frequency)",
+    "3 incorrect answers": [
+      "It acts as a low-impedance acceptor (passes the resonant frequency)",
+      "It amplifies all signals by 10 dB",
+      "It short-circuits DC to ground"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.4.1, p. 103",
+    "Explanation": "A parallel LC circuit exhibits maximum impedance at resonance, acting as a rejector trap when placed in line."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "How does a series LC tuned circuit behave at its resonant frequency?",
+    "Correct answer": "It exhibits minimum impedance (acts as an acceptor)",
+    "3 incorrect answers": [
+      "It exhibits maximum impedance (acts as a rejector)",
+      "It converts AC into DC voltage",
+      "Its reactance becomes infinite"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.4.1, p. 103",
+    "Explanation": "At resonance, series LC branch reactances cancel completely (XL - XC = 0), leaving only minimal series resistance."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What property of quartz crystals makes them superior to standard LC circuits for stable oscillators?",
+    "Correct answer": "Very high Q-factor and extreme frequency stability",
+    "3 incorrect answers": [
+      "Low cost and high power handling",
+      "Ability to tune across broad frequency bands without components",
+      "Zero internal capacitance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.5, p. 112",
+    "Explanation": "Quartz crystals possess extremely high Q-factors (10,000+), providing sharp selectivity and tight frequency stability."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "JANUARY 2026 ERRATA: In a receiver, the Beat Frequency Oscillator (BFO) signal is mixed with what signal to produce audible sound?",
+    "Correct answer": "Mixed in the Product Detector with the output of the IF Amplifier",
+    "3 incorrect answers": [
+      "Mixed directly in the RF preamplifier with the antenna input",
+      "Mixed with the local oscillator in the front-end mixer",
+      "Mixed with the mains power supply transformer output"
+    ],
+    "Source": "IRTS HAREC Study Guide Errata Jan 2026, p. 115 / Ch 13.3.7",
+    "Explanation": "Per the Jan 2026 Errata: The BFO signal is mixed in the receiver's Product Detector with the output of the IF Amplifier to produce audio."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What is the purpose of a Zener diode in power supply circuits?",
+    "Correct answer": "Voltage regulation and stabilization",
+    "3 incorrect answers": [
+      "Full-wave AC rectification",
+      "High frequency RF amplification",
+      "Signal demodulation"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 10.1, p. 121",
+    "Explanation": "Zener diodes operate in reverse breakdown mode to maintain a constant reference voltage for regulation."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What three terminals comprise a Bipolar Junction Transistor (BJT)?",
+    "Correct answer": "Emitter, Base, Collector",
+    "3 incorrect answers": [
+      "Gate, Drain, Source",
+      "Anode, Cathode, Grid",
+      "Input, Output, Ground"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 10.2, p. 122",
+    "Explanation": "BJTs have three terminals: Emitter, Base, and Collector. FETs have Gate, Drain, and Source."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What are the main structural electrodes inside a thermionic triode vacuum tube?",
+    "Correct answer": "Heater/Cathode, Control Grid, and Anode (Plate)",
+    "3 incorrect answers": [
+      "Emitter, Base, and Collector",
+      "Gate, Drain, and Source",
+      "Primary coil and Secondary coil"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 10.3.1, p. 124",
+    "Explanation": "A triode contains a heated cathode emitting electrons, a control grid regulating flow, and an anode collecting electrons."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What circuit configuration converts AC into pulsing DC using four diodes?",
+    "Correct answer": "Full-wave bridge rectifier",
+    "3 incorrect answers": [
+      "Half-wave single diode filter",
+      "Zener limiter network",
+      "Pi-network tuner"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 10.6.3, p. 132",
+    "Explanation": "A bridge rectifier uses 4 diodes in a bridge arrangement to conduct current during both positive and negative AC half-cycles."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "In amplifier classification, which class provides highest efficiency (up to 75-80%) but operates in non-linear conduction for less than 180 degrees of the cycle?",
+    "Correct answer": "Class C",
+    "3 incorrect answers": [
+      "Class A",
+      "Class B",
+      "Class AB"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 10.7.2, p. 135",
+    "Explanation": "Class C amplifiers conduct for less than 180° of the input cycle. They are highly efficient but non-linear (suitable for CW/FM)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What is the total equivalent resistance of two resistors, 30 ohms and 60 ohms, connected in parallel?",
+    "Correct answer": "20 ohms",
+    "3 incorrect answers": [
+      "90 ohms",
+      "45 ohms",
+      "15 ohms"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 4.2.5, p. 33",
+    "Explanation": "1/Req = 1/30 + 1/60 = 2/60 + 1/60 = 3/60 = 1/20. Req = 20 ohms."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "If a 4 ohm resistor is in series with a parallel pair of 30 ohm and 60 ohm resistors across a 12V battery, what is the total circuit current?",
+    "Correct answer": "0.5 A (500 mA)",
+    "3 incorrect answers": [
+      "1.0 A",
+      "2.0 A",
+      "0.25 A"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 4.2.5, p. 33",
+    "Explanation": "Parallel pair = 20 ohms. Total Req = 4 + 20 = 24 ohms. Total current I = V / Req = 12 / 24 = 0.5 A."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What component parameter indicates the ratio of stored energy to dissipated energy per cycle in a resonant circuit?",
+    "Correct answer": "Q factor (Quality factor)",
+    "3 incorrect answers": [
+      "Dielectric constant",
+      "Temperature coefficient",
+      "Inverse turn ratio"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.4.4, p. 111",
+    "Explanation": "Q factor measures the sharpness of resonance and selectivity; higher Q means narrower bandwidth and lower internal losses."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What transformer turns ratio (Np : Ns) is needed to step down 230V mains voltage to 11.5V?",
+    "Correct answer": "20 : 1",
+    "3 incorrect answers": [
+      "1 : 20",
+      "10 : 1",
+      "5 : 1"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 10.5.2, p. 128",
+    "Explanation": "Turns ratio Np/Ns = Vp/Vs = 230 / 11.5 = 20:1."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.4 Components and Circuits",
+    "Question": "What type of digital filter design is characterized by linear phase response and no analog electronic feedback equivalent?",
+    "Correct answer": "Finite Impulse Response (FIR) filter",
+    "3 incorrect answers": [
+      "Infinite Impulse Response (IIR) filter",
+      "LC Pi filter",
+      "Zener diode limiter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 8.4.3, p. 111",
+    "Explanation": "FIR filters are unique to digital signal processing, providing exact linear phase response without analog feedback loops."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "How does Single Sideband (SSB) bandwidth compare to standard Amplitude Modulation (AM)?",
+    "Correct answer": "SSB occupies approximately half the bandwidth of AM",
+    "3 incorrect answers": [
+      "SSB occupies twice the bandwidth of AM",
+      "SSB occupies identical bandwidth to FM",
+      "SSB bandwidth depends on antenna height"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 11.6, p. 157 / Sample Exam Q17",
+    "Explanation": "SSB suppresses the carrier and one sideband, occupying ~2.4 kHz compared to AM's ~6 kHz (half the bandwidth)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What does the term 'sensitivity' describe in a radio receiver?",
+    "Correct answer": "Its ability to successfully receive and decode weak signals",
+    "3 incorrect answers": [
+      "Its ability to reject strong adjacent interfering signals",
+      "The total audio output power of the speaker stage",
+      "The frequency drift rate per hour"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.1, p. 202 / Sample Exam Q18",
+    "Explanation": "Sensitivity is the receiver's capability to resolve weak signals above the internal noise floor."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "In a traditional SSB transmitter block diagram, what stage combines the speech audio with the carrier oscillator signal?",
+    "Correct answer": "Balanced Modulator",
+    "3 incorrect answers": [
+      "Linear Power Amplifier",
+      "Frequency Multiplier",
+      "RF Envelope Detector"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 12.7.1, p. 178 / Sample Exam Q19",
+    "Explanation": "The balanced modulator combines AF speech and RF carrier, producing double-sideband suppressed-carrier (DSB-SC) signals."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "According to Carson's Rule, what is the total bandwidth required for an FM voice transmission?",
+    "Correct answer": "Twice the sum of peak frequency deviation and highest modulating audio frequency: BW = 2*(Δf + fmax)",
+    "3 incorrect answers": [
+      "Equal to the peak frequency deviation Δf",
+      "Twice the highest modulating audio frequency",
+      "Four times the carrier frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 11.4.2, p. 155 / Sample Exam Q20",
+    "Explanation": "Carson's Rule states FM bandwidth BW ≈ 2 * (Peak Deviation + Max Audio Frequency)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What is the purpose of Automatic Level Control (ALC) in an SSB transmitter?",
+    "Correct answer": "To prevent overdriving the linear power amplifier stages and avoid splatter",
+    "3 incorrect answers": [
+      "To automatically adjust receiver volume",
+      "To match the transceiver impedance to 50 ohms",
+      "To increase Morse keying speed"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 12.7.4, p. 179",
+    "Explanation": "ALC feeds back a control voltage to limit peak audio/IF drive, preventing amplifier flat-topping and splatter."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "JANUARY 2026 ERRATA: What is the correct receiver IF filter bandwidth range specified for FM signals in Table 13-A?",
+    "Correct answer": "7.5 kHz to 16 kHz",
+    "3 incorrect answers": [
+      "12.5 kHz fixed",
+      "1.8 kHz to 2.4 kHz",
+      "100 Hz to 500 Hz"
+    ],
+    "Source": "IRTS HAREC Study Guide Errata Jan 2026, p. 193",
+    "Explanation": "Per the Jan 2026 Errata update to Table 13-A, receiver IF filter bandwidth for FM is 7.5 – 16 kHz (updated from 12.5 kHz)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "In a superheterodyne receiver, what unwanted frequency can mix with the local oscillator to produce the exact same Intermediate Frequency (IF)?",
+    "Correct answer": "Image frequency",
+    "3 incorrect answers": [
+      "Harmonic frequency",
+      "Sub-carrier frequency",
+      "Baseband frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.4, p. 203",
+    "Explanation": "The image frequency lies on the opposite side of the LO frequency by twice the IF (Fimage = Fin + 2*FIF) and must be filtered out at the RF stage."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What receiver stage maintains a relatively constant audio output level despite wide variations in received RF signal strength?",
+    "Correct answer": "Automatic Gain Control (AGC)",
+    "3 incorrect answers": [
+      "Beat Frequency Oscillator (BFO)",
+      "Squelch circuit",
+      "Product Detector"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.3.10, p. 196",
+    "Explanation": "AGC adjusts RF and IF stage gain based on signal strength to keep receiver audio output stable."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What circuit silences the receiver audio output when no RF carrier signal is being received on FM?",
+    "Correct answer": "Squelch circuit",
+    "3 incorrect answers": [
+      "AGC circuit",
+      "ALC circuit",
+      "Limiter circuit"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.3.12, p. 198",
+    "Explanation": "Squelch mutes background thermal noise when no signal above a threshold level is present."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "In a Direct Sampling SDR receiver, what primary component digitizes incoming RF signals directly from the antenna?",
+    "Correct answer": "High-speed Analogue-to-Digital Converter (ADC)",
+    "3 incorrect answers": [
+      "Product Detector",
+      "Balanced Modulator",
+      "Double balanced diode mixer"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.6.1, p. 199",
+    "Explanation": "Direct sampling SDRs use a high-speed ADC to digitize the raw RF spectrum straight from the antenna input."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What device allows an HF transceiver to operate on VHF or UHF bands by shifting transmit and receive frequencies?",
+    "Correct answer": "Transverter",
+    "3 incorrect answers": [
+      "Dummy load",
+      "Antenna tuner",
+      "SWR bridge"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 12.11, p. 186",
+    "Explanation": "A transverter converts transmit/receive frequencies between an HF IF band (e.g. 28 MHz) and VHF/UHF bands (e.g. 144 MHz)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What is the operational duty cycle of a transmitter transmitting continuous FM voice or FSK digital modes compared to SSB voice?",
+    "Correct answer": "100% duty cycle (full continuous power)",
+    "3 incorrect answers": [
+      "20% duty cycle",
+      "50% duty cycle",
+      "10% duty cycle"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 12.2, p. 172",
+    "Explanation": "FM and continuous FSK modes run at 100% duty cycle (constant full amplitude), requiring higher thermal amplifier ratings than SSB voice."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What is the term for a receiver's ability to discriminate between a desired signal and an adjacent unwanted signal?",
+    "Correct answer": "Selectivity",
+    "3 incorrect answers": [
+      "Sensitivity",
+      "Dynamic range",
+      "Stability"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.2, p. 202",
+    "Explanation": "Selectivity is the receiver's ability to isolate desired signals from nearby interfering frequencies."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "In a superheterodyne receiver with an IF of 455 kHz tuned to 7,100 kHz (using high-side LO injection at 7,555 kHz), what is the image frequency?",
+    "Correct answer": "8,010 kHz",
+    "3 incorrect answers": [
+      "6,645 kHz",
+      "7,555 kHz",
+      "14,200 kHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.4, p. 203",
+    "Explanation": "High-side injection LO = 7100 + 455 = 7555 kHz. Image = LO + IF = 7555 + 455 = 8010 kHz (or Fin + 2*IF = 7100 + 910 = 8010 kHz)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What buffer stage is placed after a master oscillator in a transmitter?",
+    "Correct answer": "Buffer amplifier (to isolate the oscillator from loading changes)",
+    "3 incorrect answers": [
+      "Class C power finals",
+      "Antenna tuning unit",
+      "Low pass harmonic filter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 12.6.2, p. 176",
+    "Explanation": "A buffer amplifier provides high input impedance to prevent downstream amplifier loading from pulling or shifting the oscillator frequency."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What detector is specifically used in receivers to demodulate SSB and CW signals?",
+    "Correct answer": "Product detector",
+    "3 incorrect answers": [
+      "Envelope diode detector",
+      "Ratio detector",
+      "Discriminator"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.3.7, p. 195",
+    "Explanation": "SSB and CW lack a transmitted carrier; a product detector mixes the incoming IF signal with a local BFO carrier to recover audio."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What parameter describes the ratio between the strongest signal a receiver can handle without overload and the weakest readable signal?",
+    "Correct answer": "Dynamic range",
+    "3 incorrect answers": [
+      "Noise figure",
+      "Image rejection ratio",
+      "Selectivity slope"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.7.3, p. 203",
+    "Explanation": "Dynamic range measures the range of signal strengths a receiver can process simultaneously without distortion or desensitisation."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What dummy load power rating is required when testing a 100W transmitter?",
+    "Correct answer": "At least 100W continuous rating into a non-inductive 50 ohm load",
+    "3 incorrect answers": [
+      "10W wirewound resistor",
+      "500W wirewound resistor",
+      "100W reactive antenna coil"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.10, p. 281",
+    "Explanation": "A dummy load must be non-inductive 50 ohms and rated to safely dissipate the transmitter's maximum continuous output power as heat."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What feature in FM receivers removes amplitude variations from incoming signals before frequency discrimination?",
+    "Correct answer": "Limiter stage",
+    "3 incorrect answers": [
+      "Product detector",
+      "RF envelope generator",
+      "AGC line"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 13.3.8, p. 195",
+    "Explanation": "An FM limiter clips amplitude spikes and noise off the signal so the FM demodulator responds strictly to frequency changes."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.5 Transmitters and Receivers",
+    "Question": "What is the typical bandwidth occupied by an FT8 digital mode transmission?",
+    "Correct answer": "50 Hz",
+    "3 incorrect answers": [
+      "2.4 kHz",
+      "500 Hz",
+      "12.5 kHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 11.10, p. 166",
+    "Explanation": "FT8 uses 8-frequency shift keying (8-FSK) with a ultra-narrow tone spacing, occupying approximately 50 Hz bandwidth."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What characteristic impedance is standard for coaxial cables used in modern amateur radio antenna feeders?",
+    "Correct answer": "50 ohms",
+    "3 incorrect answers": [
+      "75 ohms",
+      "300 ohms",
+      "600 ohms"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.6, p. 211 / Sample Exam Q21",
+    "Explanation": "Standard amateur radio coaxial cables (RG-58, RG-213) have a characteristic impedance (Z0) of 50 ohms."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "If a transmission feedline must run close to metallic structures or building walls, which feedline type should be used?",
+    "Correct answer": "Coaxial cable",
+    "3 incorrect answers": [
+      "Wide-spaced open-wire line",
+      "Narrow-spaced ladder line",
+      "Unshielded twin lead"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.6, p. 211 / Sample Exam Q22",
+    "Explanation": "Coaxial cable confines its electromagnetic fields entirely within its outer shielded braid, preventing interference from nearby conductive objects."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What is the function of an Antenna Tuning Unit (ATU) placed between a transceiver and a feedline?",
+    "Correct answer": "To match the 50 ohm impedance of the transceiver to the input impedance of the feedline system",
+    "3 incorrect answers": [
+      "To alter the physical length of the antenna wire",
+      "To reduce atmospheric static noise",
+      "To eliminate harmonic radiation from linear amplifiers"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.10, p. 220 / Sample Exam Q24",
+    "Explanation": "An ATU transforms the feedline input impedance to 50 ohms resistive at the transceiver output, allowing full power transfer."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "JANUARY 2026 ERRATA: How does a centre-fed half-wave antenna behave when operated on odd vs even harmonics of its fundamental frequency?",
+    "Correct answer": "Its feed point impedance is much easier to match on odd harmonics (e.g. 15m for a 40m dipole) than even harmonics (e.g. 20m) where impedance is extremely high",
+    "3 incorrect answers": [
+      "Its impedance is identical on both odd and even harmonics",
+      "Even harmonics match easily while odd harmonics cannot be matched",
+      "It cannot be operated on any harmonic frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Errata Jan 2026, p. 229 / Footnote 290",
+    "Explanation": "Per the Jan 2026 Errata: A centre-fed half-wave dipole has low, easy-to-match feedpoint impedance on odd harmonics (like 15m), but very high impedance on even harmonics (like 20m)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "JANUARY 2026 ERRATA: Where should an SWR meter be positioned in a station setup for equipment protection?",
+    "Correct answer": "Immediately after an amplifier (if used) or transceiver, and BEFORE any final low-pass filters",
+    "3 incorrect answers": [
+      "After the low-pass filter and after the antenna tuner",
+      "Directly at the antenna feed point outdoors",
+      "Between the microphone and transceiver input"
+    ],
+    "Source": "IRTS HAREC Study Guide Errata Jan 2026, p. 276",
+    "Explanation": "Per the Jan 2026 Errata: To protect equipment, the SWR meter must be placed immediately after the transceiver/amplifier and BEFORE any final low-pass filters."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What velocity factor (VF) is typical for solid polyethylene dielectric coaxial cables like RG-58?",
+    "Correct answer": "0.66",
+    "3 incorrect answers": [
+      "1.00",
+      "0.95",
+      "0.25"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.3, p. 207",
+    "Explanation": "Solid polyethylene dielectric coax has a velocity factor of approximately 0.66 (signals travel at 66% the speed of light in vacuum)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What calculated physical length is required for a resonant half-wave dipole wire for 14.1 MHz (20m band)?",
+    "Correct answer": "Approximately 10.1 metres",
+    "3 incorrect answers": [
+      "20.0 metres",
+      "5.0 metres",
+      "14.1 metres"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.7.2, p. 230",
+    "Explanation": "Length (m) ≈ 142.5 / f (MHz) = 142.5 / 14.1 ≈ 10.1 metres total (5.05m per leg)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What radiation pattern is produced by a horizontal half-wave dipole in free space?",
+    "Correct answer": "Figure-eight bidirectional pattern perpendicular to the wire",
+    "3 incorrect answers": [
+      "Omnidirectional circular pattern in all directions",
+      "Unidirectional single beam pointing off the wire ends",
+      "Isotropic spherical radiation"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.7.1, p. 228",
+    "Explanation": "A horizontal half-wave dipole radiates a broad figure-eight pattern maximum broadside (perpendicular) to the wire."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What is the theoretical feed point impedance of a resonant quarter-wave vertical antenna over a good ground plane?",
+    "Correct answer": "Approximately 36 ohms",
+    "3 incorrect answers": [
+      "50 ohms",
+      "300 ohms",
+      "73 ohms"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.11, p. 241",
+    "Explanation": "A quarter-wave vertical over a perfect ground plane has an ideal feedpoint impedance of ~36 ohms."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What parasitic element in a 3-element Yagi antenna is slightly LONGER than the driven element?",
+    "Correct answer": "Reflector",
+    "3 incorrect answers": [
+      "Director",
+      "Gamma rod",
+      "Boom"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.14, p. 243",
+    "Explanation": "In a Yagi-Uda antenna, the reflector is ~5% longer than the driven element, while the director is ~5% shorter."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What ratio defines Effective Isotropic Radiated Power (EIRP)?",
+    "Correct answer": "The total power radiated relative to an ideal isotropic radiator in free space",
+    "3 incorrect answers": [
+      "The power radiated relative to a half-wave dipole",
+      "The transmitter output power minus SWR loss",
+      "The DC input power multiplied by efficiency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.20, p. 250",
+    "Explanation": "EIRP measures effective focused power relative to an isotropic source (dBi = dBd + 2.15)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "Calculate ERP in dBW for a 100W transmitter (20 dBW) connected to a line with 1 dB loss and an antenna with 5 dBd gain.",
+    "Correct answer": "24 dBW (250 W)",
+    "3 incorrect answers": [
+      "20 dBW (100 W)",
+      "26 dBW (400 W)",
+      "15 dBW (30 W)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.20.1, p. 251",
+    "Explanation": "ERP (dBW) = Transmit power (20 dBW) - Line loss (1 dB) + Antenna gain (5 dBd) = 24 dBW (250 Watts)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What standing wave ratio (SWR) indicates a perfect impedance match between feeder and load?",
+    "Correct answer": "1:1",
+    "3 incorrect answers": [
+      "0:1",
+      "1:2",
+      "10:1"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.9.4, p. 219",
+    "Explanation": "An SWR of 1:1 indicates zero reflected power and complete impedance matching."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What happens to un-reflected forward power when feeder line loss is high?",
+    "Correct answer": "It is converted into heat within the feedline cable",
+    "3 incorrect answers": [
+      "It radiates out of the transmitter power plug",
+      "It is reflected back into the mains power grid",
+      "It increases antenna bandwidth"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.2, p. 206 & Ch 14.9.3, p. 218",
+    "Explanation": "Feeder attenuation converts RF energy directly into heat dissipation inside the cable dielectric and conductor resistance."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What device converts unbalanced coaxial feedline current to balanced current for feeding a dipole antenna?",
+    "Correct answer": "Balun (Balanced to Unbalanced transformer)",
+    "3 incorrect answers": [
+      "Unun",
+      "Dummy load",
+      "SWR bridge"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.11, p. 221",
+    "Explanation": "A BALUN connects an UNbalanced coaxial cable to a BALanced antenna (like a dipole) to prevent braid currents."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What antenna type uses a parabolic reflector dish to produce extremely high gain at microwave frequencies?",
+    "Correct answer": "Parabolic dish antenna",
+    "3 incorrect answers": [
+      "Folded dipole",
+      "Quarter-wave ground plane",
+      "G5RV multiband wire"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.18, p. 249",
+    "Explanation": "Parabolic dishes focus RF energy into narrow high-gain beams at UHF and microwave frequencies."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What is the front-to-back ratio of a directional Yagi antenna?",
+    "Correct answer": "The ratio of power radiated in the main forward lobe to power radiated in the opposite reverse direction (expressed in dB)",
+    "3 incorrect answers": [
+      "The ratio of boom length to element diameter",
+      "The ratio of input impedance to output impedance",
+      "The ratio of total height to ground reflection"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.16, p. 248",
+    "Explanation": "Front-to-back ratio compares radiation intensity in the desired forward direction versus 180° directly behind it."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What zone immediately surrounds an active transmitting antenna where non-radiating reactive fields dominate?",
+    "Correct answer": "Reactive Near Field",
+    "3 incorrect answers": [
+      "Radiating Far Field",
+      "Skip zone",
+      "Fraunhofer zone"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.2, p. 225",
+    "Explanation": "The reactive near field immediately surrounds the antenna wire, where reactive E and H fields store energy without radiating."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What is a trap dipole antenna?",
+    "Correct answer": "A multiband dipole that uses parallel LC resonant traps to isolate outer wire sections on higher frequencies",
+    "3 incorrect answers": [
+      "A dipole designed to trap harmonic emissions before they reach the air",
+      "A dipole fed with open-wire line through an ATU",
+      "A vertical antenna with 4 ground radials"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 15.12, p. 238",
+    "Explanation": "LC traps act as high impedance barriers at specific band frequencies, electrically shortening the dipole wire for multiband operation."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.6 Antennas and Transmission Lines",
+    "Question": "What feedline type exhibits the lowest attenuation loss over long distances at HF?",
+    "Correct answer": "Open-wire parallel transmission line",
+    "3 incorrect answers": [
+      "Thin RG-58 coaxial cable",
+      "Flexible RG-174 coaxial cable",
+      "Shielded twisted pair"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 14.5, p. 209",
+    "Explanation": "Air-dielectric open-wire parallel line has extremely low dielectric loss compared to coaxial cables."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "Why is daytime long-distance skywave communication generally impossible on the 160m (1.8 MHz) band?",
+    "Correct answer": "The ionospheric D-layer absorbs 160m signals heavily during daylight",
+    "3 incorrect answers": [
+      "The F-layer disappears completely during the day",
+      "Solar flares block 160m ground waves",
+      "VHF ducting scatters the signals"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.5, p. 262 & Ch 16.6, p. 263 / Sample Exam Q25",
+    "Explanation": "Sunlight ionizes the low-altitude D-layer during the day, which heavily absorbs low-frequency (LF/MF/160m) radio waves."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What factor is LEAST likely to affect the single-hop skywave skip distance of an HF signal?",
+    "Correct answer": "Mode of transmission (e.g. SSB vs CW)",
+    "3 incorrect answers": [
+      "Frequency of the transmission",
+      "Angle of radiation",
+      "Height of the ionospheric layer"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.7, p. 265 / Sample Exam Q26",
+    "Explanation": "Skip distance depends on frequency, takeoff angle, and ionospheric layer height; the modulation mode used does not alter radio wave refraction."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "Two stations 4 km apart separated by a hill communicate on 160m. What propagation mode is being used?",
+    "Correct answer": "Ground wave propagation",
+    "3 incorrect answers": [
+      "Tropospheric ducting",
+      "Sporadic E reflection",
+      "Transequatorial propagation"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.5.1, p. 262 / Sample Exam Q27",
+    "Explanation": "Ground waves travel along the contour of the Earth, diffracting over hills to provide local daytime MF/160m coverage."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What term defines the highest frequency above which a vertically transmitted signal passes straight through the ionosphere into space?",
+    "Correct answer": "Critical frequency",
+    "3 incorrect answers": [
+      "Maximum Usable Frequency (MUF)",
+      "Lowest Usable Frequency (LUF)",
+      "Cutoff frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.10.1, p. 269 / Sample Exam Q28",
+    "Explanation": "Critical frequency is the highest frequency returned to Earth when transmitted straight up (90° vertical incidence)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What atmospheric layer is primarily responsible for long-distance worldwide HF skywave communication at night?",
+    "Correct answer": "F-layer (F2 merging into single F-layer at night)",
+    "3 incorrect answers": [
+      "D-layer",
+      "Troposphere",
+      "Stratosphere"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.3.3, p. 259 & Ch 16.7, p. 265",
+    "Explanation": "The highest ionospheric region, the F-layer, refracts HF signals over thousands of kilometres, remaining active at night."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What is the 'skip zone' (or dead zone)?",
+    "Correct answer": "The silent area between the outer reach of the ground wave and the point where the first skywave returns to Earth",
+    "3 incorrect answers": [
+      "The region where magnetic storms block satellite signals",
+      "The loss of signal inside concrete buildings",
+      "The frequency gap between HF and VHF"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.5.2, p. 263",
+    "Explanation": "The skip zone is the area where ground waves have died out, but skywaves have not yet returned to Earth."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What ionospheric phenomenon allows unexpected 10m, 6m, and 2m VHF propagation over 1,000–2,000 km during summer months?",
+    "Correct answer": "Sporadic E (Es)",
+    "3 incorrect answers": [
+      "Tropospheric ducting",
+      "Ground wave diffractions",
+      "F2 layer solar cycle peak"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.8.5, p. 267",
+    "Explanation": "Sporadic E consists of dense, highly ionized clouds forming suddenly in the E-region during summer, reflecting VHF signals."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "How does the 11-year solar sunspot cycle impact HF radio propagation?",
+    "Correct answer": "Higher sunspot numbers increase solar UV/X-ray radiation, boosting ionisation and raising the Maximum Usable Frequency (MUF)",
+    "3 incorrect answers": [
+      "Higher sunspot numbers destroy the ionosphere and block all HF",
+      "Sunspots only affect VHF frequencies above 144 MHz",
+      "Sunspots cause solar eclipses every 11 years"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.2.2, p. 256",
+    "Explanation": "Sunspot peaks increase solar EUV radiation, charging the ionosphere heavily and supporting high HF bands (15m, 12m, 10m)."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What propagation mechanism temperature inversion layer in the lower atmosphere supports long-distance 2m and 70cm VHF/UHF contacts?",
+    "Correct answer": "Tropospheric ducting",
+    "3 incorrect answers": [
+      "Skywave refraction",
+      "Meteor scatter",
+      "Auroral reflection"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.8.4, p. 267",
+    "Explanation": "Tropospheric ducting occurs when warm dry air overlies cool moist air, trapping VHF/UHF waves like a waveguide along weather fronts."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What causes signal 'fading' (QSB) on HF skywave contacts?",
+    "Correct answer": "Interference between multiple skywave paths arriving out of phase (multipath fading)",
+    "3 incorrect answers": [
+      "Transmitter power supply voltage drops",
+      "Antenna tuner capacitor overheating",
+      "Ground wave absorption by trees"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.9, p. 269",
+    "Explanation": "Multipath propagation causes signals arriving over slightly different path lengths or polarizations to constructively and destructively interfere."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What is Earth-Moon-Earth (EME) propagation?",
+    "Correct answer": "Using the Moon as a passive reflector for extreme long-distance VHF/UHF/microwave communications",
+    "3 incorrect answers": [
+      "Communicating with lunar astronauts on HF 80m",
+      "Bouncing signals off commercial weather satellites",
+      "Reflecting HF ground waves off ocean tides"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.8.8, p. 268",
+    "Explanation": "EME (Moonbounce) uses high-power directive antennas to reflect VHF/UHF signals off the surface of the Moon back to Earth."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What propagation mode utilizes the brief ionized trails of disintegrating space debris in the upper atmosphere to bounce VHF signals?",
+    "Correct answer": "Meteor scatter",
+    "3 incorrect answers": [
+      "Auroral reflection",
+      "Troposcatter",
+      "D-layer absorption"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.8.7, p. 267",
+    "Explanation": "Meteors burning up in the E-region leave brief ionized trails that reflect 6m and 2m signals for milliseconds to seconds."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What effect do geomagnetic storms triggered by Coronal Mass Ejections (CMEs) have on HF skywave paths crossing polar regions?",
+    "Correct answer": "Severe ionospheric disturbances causing auroral absorption and HF blackout",
+    "3 incorrect answers": [
+      "Dramatic improvement in 80m daytime contacts",
+      "Stabilization of all MUFs above 50 MHz",
+      "Complete elimination of static noise"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.2.4, p. 257",
+    "Explanation": "Solar flares and CMEs disturb Earth's magnetic field, causing radio blackouts and polar path absorption."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What is the Lowest Usable Frequency (LUF)?",
+    "Correct answer": "The lowest frequency that provides sufficient signal strength to overcome D-layer absorption and noise on a given path",
+    "3 incorrect answers": [
+      "The frequency of the lowest band allocated to amateurs (160m)",
+      "The minimum frequency a transceiver VFO can tune",
+      "The critical frequency divided by 2"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.10.3, p. 271",
+    "Explanation": "LUF is the lower frequency limit for an HF circuit below which D-layer absorption makes the signal unreadable."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "Why does a lower radiation angle (takeoff angle) from an HF antenna increase communication distance?",
+    "Correct answer": "Lower takeoff angles hit the ionosphere further out, producing longer single-hop skip distances",
+    "3 incorrect answers": [
+      "Lower takeoff angles bypass the ionosphere completely",
+      "Lower takeoff angles increase transmitter ERP by 6 dB",
+      "Lower takeoff angles eliminate multipath fading"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.7, p. 265",
+    "Explanation": "Low takeoff angles strike the ionospheric refracting layer closer to the horizon, expanding the ground distance per hop."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What ionospheric layer exists only during daylight hours and splits into two distinct sub-layers (F1 and F2)?",
+    "Correct answer": "F-layer",
+    "3 incorrect answers": [
+      "D-layer",
+      "E-layer",
+      "Troposphere"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.3.3, p. 259",
+    "Explanation": "During the day, intense solar radiation splits the F-layer into F1 (~200 km) and F2 (~400 km) layers."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What VHF/UHF propagation mode relies on green curtain auroral displays in high latitudes, imparting a distinctive raspy tone to voice signals?",
+    "Correct answer": "Auroral scatter/reflection",
+    "3 incorrect answers": [
+      "Tropospheric ducting",
+      "Sporadic E",
+      "Meteor scatter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.8.6, p. 267",
+    "Explanation": "Ionized auroral curtains reflect VHF signals; rapid electron movement causes severe Doppler distortion, making voice sound raspy."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.7 Propagation",
+    "Question": "What is the line-of-sight radio horizon distance compared to the visual optical horizon?",
+    "Correct answer": "Radio horizon is approximately 15% further than optical horizon due to atmospheric refraction",
+    "3 incorrect answers": [
+      "Radio horizon is identical to optical horizon",
+      "Radio horizon is twice as short as optical horizon",
+      "Radio horizon extends to 1,000 km for all frequencies"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 16.4, p. 261",
+    "Explanation": "Normal atmospheric density gradients bend (refract) radio waves downward slightly, extending the radio horizon ~15% beyond optical sight."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "When using an oscilloscope to analyze a transmitter RF output, what does the vertical (Y) axis display?",
+    "Correct answer": "Signal voltage",
+    "3 incorrect answers": [
+      "Signal frequency",
+      "Audio frequency modulation rate",
+      "SWR ratio"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.3, p. 276 / Sample Exam Q29",
+    "Explanation": "On an oscilloscope display, the vertical Y-axis represents instantaneous signal voltage, while the horizontal X-axis represents time."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "How should a voltmeter be connected in a circuit to measure voltage across a load component?",
+    "Correct answer": "In parallel with the component",
+    "3 incorrect answers": [
+      "In series with the component",
+      "In place of the mains fuse",
+      "Connected only to the earth rod"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.1.1, p. 273",
+    "Explanation": "Voltmeters have very high internal resistance and must be connected in parallel across the points being measured."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "How should an ammeter be connected to measure current flowing through a circuit branch?",
+    "Correct answer": "In series within the circuit branch",
+    "3 incorrect answers": [
+      "In parallel across the power source",
+      "Between live and neutral wires",
+      "Across the antenna feed point"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.1.2, p. 273",
+    "Explanation": "Ammeters have very low internal resistance and must be inserted in series so the branch current flows through the meter."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What instrument displays RF signal amplitude across a visual frequency domain axis?",
+    "Correct answer": "Spectrum analyzer",
+    "3 incorrect answers": [
+      "Oscilloscope",
+      "Multimeter",
+      "Frequency counter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.5, p. 278",
+    "Explanation": "A spectrum analyzer plots signal strength on the vertical axis against frequency on the horizontal axis."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What safety rule must be observed before using an ohmmeter to measure component resistance?",
+    "Correct answer": "Ensure the circuit is completely powered OFF and capacitors discharged",
+    "3 incorrect answers": [
+      "Ensure the transmitter is key-down at 100W",
+      "Connect the ohmmeter in series with mains live",
+      "Set the transmitter to FM mode"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.1.3, p. 273",
+    "Explanation": "Ohmmeters supply their own internal battery voltage; applying external circuit voltage will damage the meter and invalidate readings."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What measurement instrument directly counts and displays the numerical frequency of an RF signal?",
+    "Correct answer": "Frequency counter",
+    "3 incorrect answers": [
+      "RF absorption wavemeter",
+      "Spectrum analyzer",
+      "Dip meter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.7, p. 279",
+    "Explanation": "A digital frequency counter counts signal cycles over a precise time gate to display the frequency in Hz/kHz/MHz."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What is the purpose of an RF envelope two-tone test on an SSB transmitter?",
+    "Correct answer": "To check transmitter power amplifier linearity and detect intermodulation distortion/flat-topping",
+    "3 incorrect answers": [
+      "To measure antenna standing wave ratio",
+      "To set the receiver S-meter zero point",
+      "To calibrate the Morse key speed"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.4, p. 277",
+    "Explanation": "A two-tone test feeds two non-harmonic audio tones into an SSB transmitter while observing the RF envelope output on an oscilloscope for distortion."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What device measures relative RF electric field strength in the vicinity of an antenna or station layout?",
+    "Correct answer": "Field strength meter",
+    "3 incorrect answers": [
+      "Multimeter",
+      "Vector network analyzer",
+      "Dummy load"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.8, p. 279",
+    "Explanation": "A field strength meter uses a short pickup antenna and diode detector to measure relative local RF field intensity."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What internal resistance characteristics are ideal for a voltmeter and an ammeter?",
+    "Correct answer": "Voltmeter: extremely high resistance; Ammeter: extremely low resistance",
+    "3 incorrect answers": [
+      "Voltmeter: zero resistance; Ammeter: infinite resistance",
+      "Both should have 50 ohms resistance",
+      "Both should have 1000 ohms resistance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.1, p. 272",
+    "Explanation": "High voltmeter resistance prevents loading parallel circuits; low ammeter resistance prevents voltage drops in series circuits."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What instrument measures complex impedance (resistance and reactance) of an antenna across a range of frequencies?",
+    "Correct answer": "Antenna analyzer (or Vector Network Analyzer)",
+    "3 incorrect answers": [
+      "SWR bridge",
+      "Absorption wavemeter",
+      "Field strength meter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.9, p. 280",
+    "Explanation": "An antenna analyzer contains an internal RF signal generator and bridge to measure SWR, R, and X across frequency bands."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "What parameter does an SWR bridge measure to determine standing wave ratio on a feedline?",
+    "Correct answer": "Forward voltage and reflected voltage on the transmission line",
+    "3 incorrect answers": [
+      "Transmitter DC supply current",
+      "Audio modulation frequency",
+      "Mains earth leakage current"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.2, p. 274",
+    "Explanation": "An SWR bridge uses directional couplers/diodes to sample forward power/voltage and reflected power/voltage."
+  },
+  {
+    "Section": "Section A: Technical",
+    "Subsection": "A.8 Measurements",
+    "Question": "When using a multimeter to measure an unknown DC voltage, what initial range setting should be selected?",
+    "Correct answer": "The highest voltage range available",
+    "3 incorrect answers": [
+      "The lowest millivolt range available",
+      "The 10A current range",
+      "The ohms x1 range"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 17.1, p. 272",
+    "Explanation": "Starting on the highest range prevents damaging the meter movement or ADC if the unknown voltage exceeds lower range limits."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "How is the call sign 'NK6GR' spoken correctly using the ITU Phonetic Alphabet?",
+    "Correct answer": "November-Kilo-Six-Golf-Romeo",
+    "3 incorrect answers": [
+      "November-Kilowatt-Six-George-Radio",
+      "Nancy-Kilowatt-Six-Golf-Romeo",
+      "November-Kilo-Six-George-Romeo"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 334 / Sample Exam Q31",
+    "Explanation": "The ITU phonetic standard is N=November, K=Kilo, 6=Six, G=Golf, R=Romeo."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "How is the call sign 'EI5ABC' spoken using the ITU Phonetic Alphabet?",
+    "Correct answer": "Echo-India-Five-Alpha-Bravo-Charlie",
+    "3 incorrect answers": [
+      "Echo-Italy-Five-Alpha-Bravo-Charlie",
+      "Echo-India-Fifty-Alpha-Bravo-Charlie",
+      "England-India-Five-Alpha-Baker-Charlie"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 334",
+    "Explanation": "E=Echo, I=India, 5=Five (FIFE), A=Alpha, B=Bravo, C=Charlie."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "According to ICAO/ITU phonetic pronunciation guidelines, how should the number '3' be spoken?",
+    "Correct answer": "TREE",
+    "3 incorrect answers": [
+      "THREE",
+      "TRIO",
+      "TERRA"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-B)",
+    "Explanation": "The official radiotelephony pronunciation for the digit 3 is 'TREE'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "According to ICAO/ITU phonetic pronunciation guidelines, how should the number '9' be spoken?",
+    "Correct answer": "NIN-er",
+    "3 incorrect answers": [
+      "NINE",
+      "NINER-NINE",
+      "NOVA"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-B)",
+    "Explanation": "The official radiotelephony pronunciation for the digit 9 is 'NIN-er'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "According to ICAO/ITU phonetic pronunciation guidelines, how should the number '4' be spoken?",
+    "Correct answer": "FOW-er",
+    "3 incorrect answers": [
+      "FOUR",
+      "FOR-TEE",
+      "QUATRO"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-B)",
+    "Explanation": "The official radiotelephony pronunciation for the digit 4 is 'FOW-er'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "What is the correct ITU phonetic codeword for the letter 'Q'?",
+    "Correct answer": "Quebec",
+    "3 incorrect answers": [
+      "Queen",
+      "Quick",
+      "Quito"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-A)",
+    "Explanation": "Q = Quebec (pronounced Keh-BEC)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "What is the correct ITU phonetic codeword for the letter 'Y'?",
+    "Correct answer": "Yankee",
+    "3 incorrect answers": [
+      "Yellow",
+      "Yokohama",
+      "Yacht"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-A)",
+    "Explanation": "Y = Yankee."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "What is the correct ITU phonetic codeword for the letter 'Z'?",
+    "Correct answer": "Zulu",
+    "3 incorrect answers": [
+      "Zebra",
+      "Zero",
+      "Zurich"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-A)",
+    "Explanation": "Z = Zulu."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "How is the digit '5' pronounced in official radiotelephony spelling?",
+    "Correct answer": "FIFE",
+    "3 incorrect answers": [
+      "FIVE",
+      "FIFTY",
+      "FIFTH"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335 (Table 23-B)",
+    "Explanation": "The official radiotelephony pronunciation for 5 is 'FIFE'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.1 Phonetic Alphabet",
+    "Question": "Spell the call sign 'EJ7A' phonetically.",
+    "Correct answer": "Echo-Juliet-Seven-Alpha",
+    "3 incorrect answers": [
+      "Echo-Japan-Seven-Alpha",
+      "England-Juliet-Seven-Alpha",
+      "Echo-Juliet-Seven-America"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 23.1, p. 335",
+    "Explanation": "E=Echo, J=Juliet, 7=Seven, A=Alpha."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code is used to ask or state a station's geographical location?",
+    "Correct answer": "QTH",
+    "3 incorrect answers": [
+      "QRG",
+      "QRL",
+      "QSL"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346 / Sample Exam Q32",
+    "Explanation": "QTH? = What is your position/location? QTH = My position is... "
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What does the Q-code query 'QRZ?' mean?",
+    "Correct answer": "Who is calling me?",
+    "3 incorrect answers": [
+      "Are you ready?",
+      "What is your frequency?",
+      "Is the frequency in use?"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346 / Sample Exam Q33",
+    "Explanation": "QRZ? = Who is calling me?"
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "A station informs you that your signal is experiencing 'QSB'. What does this mean?",
+    "Correct answer": "Your signal is affected by fading",
+    "3 incorrect answers": [
+      "Your audio is distorted",
+      "There is heavy static noise",
+      "You should change frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346 / Sample Exam Q34",
+    "Explanation": "QSB = Your signals are fading."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code means 'Is the frequency busy?' when sent with a question mark?",
+    "Correct answer": "QRL?",
+    "3 incorrect answers": [
+      "QRM?",
+      "QRN?",
+      "QSY?"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRL? = Is the frequency in use? / Are you busy?"
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What is the difference between QRM and QRN?",
+    "Correct answer": "QRM is man-made interference; QRN is natural atmospheric noise/static",
+    "3 incorrect answers": [
+      "QRM is signal fading; QRN is frequency drift",
+      "QRM applies to voice; QRN applies to CW",
+      "QRM is high power; QRN is low power"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRM = Man-made interference; QRN = Natural atmospheric noise/static."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code indicates a request to change operating frequency?",
+    "Correct answer": "QSY",
+    "3 incorrect answers": [
+      "QSO",
+      "QRT",
+      "QRO"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QSY = Change frequency (e.g. QSY 7150 kHz = Change frequency to 7150 kHz)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code means 'Shall I decrease transmit power?'",
+    "Correct answer": "QRP?",
+    "3 incorrect answers": [
+      "QRO?",
+      "QRS?",
+      "QRT?"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRP? = Shall I decrease power? QRP = Lower power operation."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code means 'Shall I stop transmitting?' or 'I am stopping transmission'?",
+    "Correct answer": "QRT",
+    "3 incorrect answers": [
+      "QRS",
+      "QRX",
+      "QRU"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRT = Stop transmission / Station shutting down."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code asks 'What is the exact frequency?'",
+    "Correct answer": "QRG?",
+    "3 incorrect answers": [
+      "QRK?",
+      "QTR?",
+      "QSL?"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRG? = What is my exact frequency?"
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code asks for receipt confirmation of a transmission or contact card?",
+    "Correct answer": "QSL?",
+    "3 incorrect answers": [
+      "QSO?",
+      "QTH?",
+      "QRV?"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QSL? = Can you acknowledge receipt? QSL = Confirmation of contact/card."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What CW abbreviation stands for 'End of Work' / 'Closing Station'?",
+    "Correct answer": "SK",
+    "3 incorrect answers": [
+      "BK",
+      "DE",
+      "K"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349",
+    "Explanation": "SK (prosign) = End of work / Final closure of contact."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What CW abbreviation stands for 'Invitation to Transmit'?",
+    "Correct answer": "K",
+    "3 incorrect answers": [
+      "DE",
+      "CQ",
+      "PSE"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349 & Ch 29.3.2, p. 364",
+    "Explanation": "K = Invitation to transmit / Go ahead."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What operational abbreviation is used to mean 'From' in call sign exchanges (e.g. EI2I DE EI5ABC)?",
+    "Correct answer": "DE",
+    "3 incorrect answers": [
+      "BK",
+      "UR",
+      "MSG"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349",
+    "Explanation": "DE = From (French 'de')."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code indicates 'I am ready' or 'Are you ready?'",
+    "Correct answer": "QRV",
+    "3 incorrect answers": [
+      "QRX",
+      "QRI",
+      "QRK"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRV = I am ready / Are you ready?"
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code asks 'Shall I slow down my CW sending speed?'",
+    "Correct answer": "QRS",
+    "3 incorrect answers": [
+      "QRO",
+      "QRP",
+      "QRT"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QRS = Send slower (Morse code)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What operational abbreviation stands for 'Please' in radiotelegraphy?",
+    "Correct answer": "PSE",
+    "3 incorrect answers": [
+      "PLS",
+      "MSG",
+      "RST"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349",
+    "Explanation": "PSE = Please."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What Q-code means 'A contact or communication between radio stations'?",
+    "Correct answer": "QSO",
+    "3 incorrect answers": [
+      "QSL",
+      "QTH",
+      "QSY"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.1, p. 346",
+    "Explanation": "QSO = A two-way radio contact/conversation."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.2 Q-Codes",
+    "Question": "What operational abbreviation means 'Break in' during an ongoing conversation?",
+    "Correct answer": "BK",
+    "3 incorrect answers": [
+      "SK",
+      "KN",
+      "AR"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349",
+    "Explanation": "BK = Break / Break-in transmission."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What is the international spoken (radiotelephony) distress call indicating grave and imminent danger to life?",
+    "Correct answer": "MAYDAY",
+    "3 incorrect answers": [
+      "SOS",
+      "EMERGENCY",
+      "HELP"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.1.2, p. 350 / Sample Exam Q35",
+    "Explanation": "MAYDAY is the official international radiotelephony (voice) distress signal."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What is the designated Irish Emergency Communications Centre of Activity frequency on the 80m HF band?",
+    "Correct answer": "3.660 MHz",
+    "3 incorrect answers": [
+      "7.115 MHz",
+      "14.300 MHz",
+      "3.760 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.5, p. 344 & Ch 27.3, p. 351 / Sample Exam Q36",
+    "Explanation": "The Irish emergency frequencies are: 80m = 3.660 MHz, 40m = 7.115 MHz, 20m = 14.300 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "Is transmitting on an emergency centre of activity frequency (e.g. 3.660 MHz) permitted for non-emergency traffic?",
+    "Correct answer": "Permitted provided it is not in use and no publicised emergency is in progress",
+    "3 incorrect answers": [
+      "Never allowed under any circumstances",
+      "Allowed only during official weekend contests",
+      "Allowed only by Morse code"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.5, p. 344 & Ch 27.3, p. 351 / Sample Exam Q37",
+    "Explanation": "Emergency frequencies are centres of activity, not exclusive reservations. Non-emergency use is permitted if clear, but operators must listen carefully and yield immediately if needed."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What is the radiotelegraphy (Morse) distress signal?",
+    "Correct answer": "SOS (sent as a single unspaced prosign ...---...)",
+    "3 incorrect answers": [
+      "MAYDAY",
+      "QUF",
+      "CQ EMERGENCY"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.1.1, p. 350",
+    "Explanation": "SOS (...---...) is the international Morse code distress signal, sent as a continuous prosign."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What is the designated Irish Emergency Communications Centre of Activity frequency on the 40m band?",
+    "Correct answer": "7.115 MHz",
+    "3 incorrect answers": [
+      "3.660 MHz",
+      "14.300 MHz",
+      "7.040 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.5, p. 344 & Ch 27.3, p. 351",
+    "Explanation": "The 40m Irish emergency frequency is 7.115 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What is the designated Irish Emergency Communications Centre of Activity frequency on the 20m band?",
+    "Correct answer": "14.300 MHz",
+    "3 incorrect answers": [
+      "14.100 MHz",
+      "7.115 MHz",
+      "3.660 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.5, p. 344 & Ch 27.3, p. 351",
+    "Explanation": "The 20m Irish emergency frequency is 14.300 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What ComReg-approved voluntary organization provides emergency radio communications support in Ireland?",
+    "Correct answer": "AREN (Amateur Radio Emergency Network)",
+    "3 incorrect answers": [
+      "RAYNET",
+      "ARES",
+      "MARS"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.2, p. 350",
+    "Explanation": "AREN (Amateur Radio Emergency Network) is the recognized public service voluntary radio emergency network in Ireland."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What action should you take if you hear a distress call (MAYDAY or SOS) on the radio?",
+    "Correct answer": "Stop transmitting immediately, listen carefully, record details, and offer assistance or relay to emergency services (999/112)",
+    "3 incorrect answers": [
+      "Transmitting a CQ call to inform other stations",
+      "Change frequency immediately without listening",
+      "Increase power to block the frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.5, p. 354",
+    "Explanation": "Immediately stop transmitting, listen, write down all details, follow Net Control instructions, and call 999/112 if required."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What defines a 'Communications Emergency'?",
+    "Correct answer": "When a critical communication system failure puts the public at risk",
+    "3 incorrect answers": [
+      "When a radio amateur loses mains power at home",
+      "When an HF contest frequency becomes overcrowded",
+      "When sunspots cause a solar flare"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.4.1, p. 352",
+    "Explanation": "A communications emergency exists when essential communication infrastructure fails, posing a risk to public safety."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "In emergency communications terminology, what is a 'Served Agency'?",
+    "Correct answer": "An official agency (e.g. Gardaí, Health Services) that requests emergency communication support",
+    "3 incorrect answers": [
+      "An amateur radio QSL card bureau",
+      "The commercial telecom service provider",
+      "An international CEPT license authority"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.4.2, p. 352",
+    "Explanation": "Served agencies are public response organizations (e.g., Civil Defence, Gardaí, HSE) that request radio assistance."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What is the primary role of a licensed radio amateur assisting during an emergency?",
+    "Correct answer": "Passing messages accurately by the fastest available reliable means",
+    "3 incorrect answers": [
+      "Enforcing local traffic laws on the road",
+      "Providing medical diagnosis over the air",
+      "Taking over command of emergency services"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.4.6, p. 354",
+    "Explanation": "The primary duty of an amateur operator is message delivery; radio is merely one tool among many to get the message through."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What phone emergency telephone numbers should be used in Ireland to pass on unhandled distress traffic?",
+    "Correct answer": "999 or 112",
+    "3 incorrect answers": [
+      "911",
+      "101",
+      "0800-EMERGENCY"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.5, p. 354",
+    "Explanation": "The national emergency telephone numbers in Ireland are 999 and 112."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "Are non-amateur third-party messages permitted during a declared natural disaster or emergency?",
+    "Correct answer": "Yes, rules regarding third-party communications are relaxed during official emergencies",
+    "3 incorrect answers": [
+      "No, third-party messages are strictly forbidden even in life-or-death situations",
+      "Yes, but only if encoded in Morse code",
+      "Only if approved by CEPT in advance"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.4, p. 315 & Ch 27.2, p. 350",
+    "Explanation": "International and Irish regulations relax third-party communication restrictions during declared emergencies or disaster relief."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "What bandwidth allowance surrounds the emergency centres of activity (e.g. 3.660, 7.115, 14.300 MHz)?",
+    "Correct answer": "+/- 20 kHz around the centre frequency",
+    "3 incorrect answers": [
+      "+/- 1 kHz",
+      "+/- 100 kHz",
+      "Exact single spot frequency only"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.5, p. 344",
+    "Explanation": "Emergency centres of activity cover a band segment of +/- 20 kHz around the nominal center frequency."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications",
+    "Question": "Why is specialized training (such as AREN training) recommended before participating in emergency nets?",
+    "Correct answer": "To ensure operators understand net discipline and operating procedures without impeding emergency traffic",
+    "3 incorrect answers": [
+      "Because untrained operators are legally prohibited from owning radios",
+      "To learn how to repair commercial emergency transmitters",
+      "To receive a paid salary from Civil Defence"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 27.4, p. 351",
+    "Explanation": "Emergency traffic requires strict net discipline and concise procedures so untrained well-meaning operators do not cause confusion."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national call sign prefix identifies an amateur radio station operating from Czechia (Czech Republic)?",
+    "Correct answer": "OK",
+    "3 incorrect answers": [
+      "CZ",
+      "CR",
+      "OM"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 / Sample Exam Q38",
+    "Explanation": "Czech Republic national prefixes include OK and OL. (Slovakia is OM)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What call sign prefix is used by an Irish amateur operating from an offshore Irish island (e.g. Aran Islands)?",
+    "Correct answer": "EJ",
+    "3 incorrect answers": [
+      "EI",
+      "EI/MM",
+      "GI"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.8, p. 330 & Ch 24.3, p. 337 / Sample Exam Q39",
+    "Explanation": "Mainland Ireland uses the prefix EI. Irish offshore islands use the prefix EJ."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "According to ITU Radio Regulations format rules, which of these is a valid amateur call sign structure?",
+    "Correct answer": "2E6J",
+    "3 incorrect answers": [
+      "EJ6",
+      "6EGJ",
+      "2EJ6"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 24.2, p. 336 / Sample Exam Q40",
+    "Explanation": "Standard ITU call signs consist of prefix (1-2 chars), a single digit (e.g. 6), and a suffix (1-4 chars ending in a letter). '2E6J' fits this format."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national prefix identifies amateur radio stations in Northern Ireland?",
+    "Correct answer": "GI (or JK)",
+    "3 incorrect answers": [
+      "EI",
+      "GM",
+      "GW"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 324 (Table 21-B)",
+    "Explanation": "UK regional prefixes: G/M = England, GI/MI = Northern Ireland, GM/MM = Scotland, GW/MW = Wales."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What call sign suffix is used when operating from a vessel in international waters?",
+    "Correct answer": "/MM (Maritime Mobile)",
+    "3 incorrect answers": [
+      "/M (Land Mobile)",
+      "/P (Portable)",
+      "/AM (Aeronautical)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.8, p. 330 & Ch 24.4, p. 337",
+    "Explanation": "/MM denotes Maritime Mobile operation aboard a vessel at sea."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What call sign suffix indicates land-based mobile operation from a vehicle in Ireland?",
+    "Correct answer": "/M",
+    "3 incorrect answers": [
+      "/MM",
+      "/P",
+      "/V"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.7, p. 329",
+    "Explanation": "/M is used for land mobile operation from a motor vehicle."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "How frequently must an Irish amateur station identify itself by transmitting its call sign during a contact?",
+    "Correct answer": "At the beginning and end of the contact, and frequently at short intervals (at least every 5-10 minutes)",
+    "3 incorrect answers": [
+      "Only once per hour",
+      "After every single sentence spoken",
+      "Only when requested by ComReg"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.7, p. 318 & Ch 29.1, p. 361",
+    "Explanation": "Stations must identify at the start, at the end, and at frequent intervals throughout a QSO."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national prefix identifies amateur stations in Germany?",
+    "Correct answer": "DL (or DA, DB, DF, DG, DH, DK, DM, DO)",
+    "3 incorrect answers": [
+      "PA",
+      "ON",
+      "OE"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "Germany's national prefixes include DL, DK, DB, DA, etc. (PA = Netherlands, ON = Belgium, OE = Austria)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national prefix identifies amateur stations in the Netherlands?",
+    "Correct answer": "PA (or PB, PD, PE, PH)",
+    "3 incorrect answers": [
+      "ON",
+      "LX",
+      "LA"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "The Netherlands uses PA-PI prefixes. (ON = Belgium, LX = Luxembourg, LA = Norway)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national prefix identifies amateur stations in France?",
+    "Correct answer": "F",
+    "3 incorrect answers": [
+      "I",
+      "EA",
+      "CT"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "France uses the prefix F. (I = Italy, EA = Spain, CT = Portugal)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national prefix identifies amateur stations in Australia?",
+    "Correct answer": "VK",
+    "3 incorrect answers": [
+      "ZL",
+      "ZL1",
+      "VU"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.2, p. 321",
+    "Explanation": "Australia uses VK prefixes. (New Zealand is ZL; India is VU)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What national prefix identifies amateur stations in New Zealand?",
+    "Correct answer": "ZL",
+    "3 incorrect answers": [
+      "VK",
+      "ZS",
+      "VE"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.2, p. 321",
+    "Explanation": "New Zealand uses ZL prefixes. (South Africa is ZS; Canada is VE)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What call sign prefix applies to amateur radio stations in the United States?",
+    "Correct answer": "K, W, N, or AA-AL",
+    "3 incorrect answers": [
+      "VE, VA, VO",
+      "JA, 7N",
+      "PY, PP"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 324 (Table 21-C)",
+    "Explanation": "USA prefixes start with K, W, N, or A. (Canada uses VE/VA; Japan uses JA; Brazil uses PY)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "What call sign prefix applies to amateur radio stations in Canada?",
+    "Correct answer": "VE (or VA, VY, VO)",
+    "3 incorrect answers": [
+      "K1",
+      "W1",
+      "CF"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 324 (Table 21-C)",
+    "Explanation": "Canada uses VE, VA, VY, and VO prefixes."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.4 Call Signs",
+    "Question": "How is the character '/' spoken when identifying a call sign like 'F/EI5ABC' on voice?",
+    "Correct answer": "Stroke (or Slash)",
+    "3 incorrect answers": [
+      "Divider",
+      "Bar",
+      "Split"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.3, p. 322 & Footnote 404",
+    "Explanation": "The character '/' is spoken as 'stroke' or 'slash' (e.g., F stroke EI5ABC)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What is the lowest suppressed carrier dial setting for LSB voice on the 160m (1.8 MHz) band under IARU R1 band plan?",
+    "Correct answer": "1843 kHz",
+    "3 incorrect answers": [
+      "1810 kHz",
+      "1840 kHz",
+      "1903 kHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3, p. 341 / Sample Exam Q41",
+    "Explanation": "Because LSB audio extends 3 kHz below dial setting, a 1843 kHz dial setting keeps the lower sideband within the 1840 kHz voice segment edge."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "Under the IARU Region 1 Band Plan, what operating mode is preferred in the 3.510–3.570 MHz range on 80m?",
+    "Correct answer": "CW (Continuous Wave)",
+    "3 incorrect answers": [
+      "All modes",
+      "SSB voice",
+      "Digital FM"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.1, p. 342 (Table 25-B) / Sample Exam Q42",
+    "Explanation": "3510–3570 kHz is reserved exclusively for CW telegraphy."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "Which of these amateur HF/VHF frequency bands has a SECONDARY allocation status in Ireland?",
+    "Correct answer": "50.000 to 52.000 MHz (6m)",
+    "3 incorrect answers": [
+      "14.000 to 14.350 MHz (20m)",
+      "21.000 to 21.450 MHz (15m)",
+      "144.000 to 146.000 MHz (2m)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C) / Sample Exam Q43",
+    "Explanation": "Secondary bands include 60m (5.3 MHz), 30m (10.1 MHz), 6m (50 MHz), and 4m (70 MHz). 20m, 15m, and 2m are primary."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What is the authorized frequency allocation range for the 40 metre HF band in Ireland?",
+    "Correct answer": "7.000 to 7.200 MHz",
+    "3 incorrect answers": [
+      "7.000 to 7.100 MHz",
+      "7.000 to 7.300 MHz",
+      "7.100 to 7.300 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C) / Sample Exam Q44",
+    "Explanation": "The 40m band in Region 1 / Ireland spans 7.000 MHz to 7.200 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "On HF bands below 10 MHz (excluding 60m), which SSB sideband is traditionally used for voice contacts?",
+    "Correct answer": "LSB (Lower Sideband)",
+    "3 incorrect answers": [
+      "USB (Upper Sideband)",
+      "DSB (Double Sideband)",
+      "AM"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3, p. 341",
+    "Explanation": "Traditional convention dictates LSB below 10 MHz (160m, 80m, 40m) and USB above 10 MHz (20m, 15m, 10m) and on 60m."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "Is SSB voice transmission permitted on the 30m (10.100–10.150 MHz) band under IARU Region 1 band plans?",
+    "Correct answer": "No, 30m is restricted to CW and narrow-band digital modes only",
+    "3 incorrect answers": [
+      "Yes, SSB voice is allowed across the entire band",
+      "Yes, but only during weekend contests",
+      "Yes, up to 1000W PEP"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3, p. 341",
+    "Explanation": "Voice SSB is NOT permitted on 30m under IARU Region 1 band plans due to narrow band limits."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What maximum transmit power limit (PEP) applies to most primary HF bands (80m, 40m, 20m, 15m, 10m) in Ireland for fixed stations?",
+    "Correct answer": "400 Watts (26 dBW)",
+    "3 incorrect answers": [
+      "100 Watts (20 dBW)",
+      "1000 Watts (30 dBW)",
+      "50 Watts (17 dBW)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C)",
+    "Explanation": "The standard maximum power limit for full Irish HAREC licensees on primary HF bands is 400W PEP (26 dBW)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What maximum power limit applies to the 60m (5.3515–5.3665 MHz) band under the IARU Region 1 allocation?",
+    "Correct answer": "15 Watts EIRP (12 dBW)",
+    "3 incorrect answers": [
+      "400 Watts PEP",
+      "100 Watts PEP",
+      "50 Watts ERP"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C)",
+    "Explanation": "The 60m international IARU allocation is strictly limited to 15W EIRP."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What exclusive frequency range is reserved for propagation beacons on the 20m band?",
+    "Correct answer": "14.099 to 14.101 MHz",
+    "3 incorrect answers": [
+      "14.000 to 14.050 MHz",
+      "14.150 to 14.200 MHz",
+      "14.340 to 14.350 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.4, p. 344 (Table 25-D)",
+    "Explanation": "20m beacon exclusive segment is 14.099 – 14.101 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What exclusive frequency range is reserved for propagation beacons on the 2m VHF band?",
+    "Correct answer": "144.400 to 144.490 MHz",
+    "3 incorrect answers": [
+      "144.000 to 144.100 MHz",
+      "145.800 to 146.000 MHz",
+      "144.500 to 145.000 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.4, p. 344 (Table 25-D)",
+    "Explanation": "2m beacon exclusive segment is 144.400 – 144.490 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "Are amateur contests permitted on the WARC bands (30m, 17m, 12m)?",
+    "Correct answer": "No, contest activity is prohibited on WARC bands by IARU agreement",
+    "3 incorrect answers": [
+      "Yes, contests are encouraged on WARC bands",
+      "Yes, but only using Morse code",
+      "Yes, during summer months"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 342 (Footnote 425)",
+    "Explanation": "By international IARU agreement, contest activity must not take place on the WARC bands (30m, 17m, 12m, and 60m)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What maximum power limit applies to land mobile (/M) operation on the 4m (70 MHz) band in Ireland?",
+    "Correct answer": "25 Watts (14 dBW)",
+    "3 incorrect answers": [
+      "50 Watts (17 dBW)",
+      "400 Watts (26 dBW)",
+      "10 Watts (10 dBW)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.7, p. 329 / Sample Exam Q59",
+    "Explanation": "Land mobile operation on 70 MHz (4m) is limited to 25W PEP."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "If ComReg regulations and IARU Band Plans conflict, which document takes legal precedence?",
+    "Correct answer": "ComReg document (Amateur Station Licence Guidelines 09/45)",
+    "3 incorrect answers": [
+      "IARU Region 1 Band Plan",
+      "ITU Radio Regulations Volume 1",
+      "RSGB Operating Handbook"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.1, p. 338",
+    "Explanation": "ComReg statutory license guidelines always take legal precedence over voluntary IARU band plans."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What is the authorized frequency range for the 2 metre VHF band in Ireland?",
+    "Correct answer": "144.000 to 146.000 MHz",
+    "3 incorrect answers": [
+      "144.000 to 148.000 MHz",
+      "140.000 to 150.000 MHz",
+      "145.000 to 146.000 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C)",
+    "Explanation": "In Region 1 / Ireland, the 2m band spans 144.000 MHz to 146.000 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What is the authorized frequency range for the 70 centimetre UHF band in Ireland?",
+    "Correct answer": "430.000 to 440.000 MHz",
+    "3 incorrect answers": [
+      "420.000 to 450.000 MHz",
+      "432.000 to 438.000 MHz",
+      "435.000 to 440.000 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C)",
+    "Explanation": "The 70cm band allocation in Ireland is 430.000 MHz to 440.000 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What is the power limit on 70cm between 430.000 MHz and 432.000 MHz in Ireland?",
+    "Correct answer": "50 Watts (17 dBW)",
+    "3 incorrect answers": [
+      "400 Watts (26 dBW)",
+      "10 Watts (10 dBW)",
+      "100 Watts (20 dBW)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C)",
+    "Explanation": "Between 430–432 MHz power is limited to 50W PEP; above 432 MHz up to 400W PEP is allowed."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What mode is preferred in the 3.570–3.600 MHz segment on 80m?",
+    "Correct answer": "Narrow-band digital modes (digimodes)",
+    "3 incorrect answers": [
+      "SSB voice",
+      "AM voice",
+      "FM repeaters"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.1, p. 342 (Table 25-B)",
+    "Explanation": "3570–3600 kHz is reserved for narrow-band digital data modes."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "Is maritime mobile (/MM) operation permitted on the 160m (1.8 MHz) band?",
+    "Correct answer": "No, maritime mobile is not permitted on 160m",
+    "3 incorrect answers": [
+      "Yes, up to 400W PEP",
+      "Yes, but only in territorial waters",
+      "Yes, using Morse code only"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.3, p. 343 (Table 25-C)",
+    "Explanation": "Maritime mobile operation is NOT permitted on 160m, 60m, 6m, 4m, or 70cm (50-430 MHz sub-segments)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What exclusive propagation beacon frequency range applies to the 10m band?",
+    "Correct answer": "28.190 to 28.225 MHz",
+    "3 incorrect answers": [
+      "28.000 to 28.050 MHz",
+      "29.500 to 29.700 MHz",
+      "28.500 to 28.600 MHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.4, p. 344 (Table 25-D)",
+    "Explanation": "10m beacon exclusive segment is 28.190 – 28.225 MHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans",
+    "Question": "What is the lowest dial setting for LSB voice on 80m to keep the 2.7 kHz sideband inside the 3.600 MHz band segment boundary?",
+    "Correct answer": "3603 kHz",
+    "3 incorrect answers": [
+      "3600 kHz",
+      "3597 kHz",
+      "3605 kHz"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 25.3.1, p. 342 (Table 25-B)",
+    "Explanation": "LSB audio extends 2.7–3 kHz BELOW the dial frequency; setting 3603 kHz keeps the emissions above 3600 kHz."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "When trying to contact a rare DX station during a crowded pile-up, how should an operator behave?",
+    "Correct answer": "Wait until the DX station finishes an ongoing contact and explicitly asks for replies to CQ",
+    "3 incorrect answers": [
+      "Transmit continuously over other stations to force the DX station to copy you",
+      "Transmit your call sign while the DX station is still receiving another station",
+      "Send a long un-keyed carrier wave"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.6, p. 359 & Ch 29.3, p. 362 / Sample Exam Q45",
+    "Explanation": "Listen carefully and call only when the DX station has finished a contact and signals readiness for new callers."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What is the correct sequence of actions before making a CQ call on an apparently clear frequency?",
+    "Correct answer": "Listen to check if the frequency is clear; ask 'Is this frequency in use, this is [Callsign]'; listen; then call CQ if clear",
+    "3 incorrect answers": [
+      "Call CQ immediately at full power",
+      "Transmit a 10-second carrier test tone then call CQ",
+      "Ask 'Is the frequency clear?' and immediately begin calling CQ without waiting"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.3.1, p. 362 / Sample Exam Q46",
+    "Explanation": "Always listen first, explicitly ask if the frequency is in use giving your call sign, listen for a reply, and proceed only if clear."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What five subjects should be strictly avoided in amateur radio transmissions according to the IARU Code of Conduct?",
+    "Correct answer": "Religion, politics, business/commercial advertising, derogatory remarks, and bathroom humor",
+    "3 incorrect answers": [
+      "Antenna construction, weather, technical design, Q-codes, and Morse code",
+      "DXing, emergency nets, satellite orbits, solar sunspots, and battery types",
+      "Licensing laws, band plans, power limits, call sign suffixes, and CE marks"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.2.1, p. 361",
+    "Explanation": "Etiquette mandates avoiding: 1. Religion, 2. Politics, 3. Business/advertising, 4. Derogatory/racist/sexist remarks, 5. Crude/inappropriate humor."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What fundamental principle governs behavior and band usage within the amateur radio community?",
+    "Correct answer": "Self-regulation and self-discipline",
+    "3 incorrect answers": [
+      "Military policing",
+      "ComReg daily monitoring officers on every channel",
+      "Paid commercial security guards"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.4, p. 357",
+    "Explanation": "Amateur radio relies on voluntary self-regulation, mutual respect, and self-discipline to ensure fair spectrum sharing."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What should an operator do if they accidentally experience interference from another station during a QSO?",
+    "Correct answer": "Assume changing ionospheric conditions or unintentional overlap, remain polite, and politely inquire or move frequency if necessary",
+    "3 incorrect answers": [
+      "Immediately begin shouting abusive language over the air",
+      "Report the station to An Garda Síochána",
+      "Transmit a high-power jammer tone"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.2, p. 357",
+    "Explanation": "Ionospheric propagation changes constantly, causing stations that couldn't hear each other to suddenly overlap. Remain polite and handle calmly."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What is the golden rule of amateur radio operation emphasized across all operating guides?",
+    "Correct answer": "Listen, listen, and listen again before transmitting",
+    "3 incorrect answers": [
+      "Always transmit at maximum allowed power",
+      "Never use Q-codes on voice",
+      "Change call sign every 12 months"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.6, p. 359",
+    "Explanation": "Listening before transmitting prevents breaking into existing contacts or interfering with ongoing emergency/DX traffic."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "Can a licensed radio amateur conduct commercial business or advertise products for sale on the air?",
+    "Correct answer": "No, amateur radio must be conducted solely with a personal aim and strictly without pecuniary (financial) interest",
+    "3 incorrect answers": [
+      "Yes, provided items are radio-related",
+      "Yes, if paying a 10% tax to ComReg",
+      "Yes, on 2 metres FM only"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.3, p. 315 & Ch 29.2.1, p. 361",
+    "Explanation": "ITU and ComReg rules strictly prohibit any business, commercial advertising, or pecuniary interest on amateur bands."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What tone of voice and language is expected during all amateur radio communications?",
+    "Correct answer": "Polite, civil, non-derogatory, and constructive language at all times",
+    "3 incorrect answers": [
+      "Informal slang including profanity",
+      "Encrypted secret phrases",
+      "Aggressive competitive shouting"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.5, p. 358",
+    "Explanation": "Amateur radio is a public, open medium shared by families and international operators; courtesy and politeness are mandatory."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "How should constructive feedback or correction be offered to a newcomer who makes an operating mistake?",
+    "Correct answer": "Politely and privately or off-air, offering helpful guidance without public embarrassment",
+    "3 incorrect answers": [
+      "By reprimanding them loudly over the air in front of everyone",
+      "By reporting them immediately for license revocation",
+      "By jamming their transmissions until they stop"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.1, p. 357",
+    "Explanation": "Help newcomers learn by offering polite, friendly advice off-air or constructively without causing public humiliation."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "Is broadcasting music or public radio entertainment permitted on amateur radio frequencies?",
+    "Correct answer": "No, broadcasting speech or music to a general public audience is illegal under an amateur licence",
+    "3 incorrect answers": [
+      "Yes, during weekend evenings",
+      "Yes, if using digital SSB",
+      "Yes, provided music is royalty-free"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.2, p. 361",
+    "Explanation": "Amateur licences permit two-way point-to-point communication between licensed stations; broadcasting music/speech is strictly prohibited."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What should an operator do when calling 'CQ DX'?",
+    "Correct answer": "Listen specifically for stations on another continent (or >300 km away on VHF/UHF)",
+    "3 incorrect answers": [
+      "Accept replies from local stations in the same town",
+      "Demand that local stations pay a fee",
+      "Transmit for 30 minutes without stopping"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.3.4, p. 364",
+    "Explanation": "CQ DX signals that the calling station is seeking long-distance contacts outside their local continent or region."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "Why is self-discipline essential for the survival of amateur radio spectrum privileges?",
+    "Correct answer": "Because regulators grant extensive frequency access based on the amateur community's proven track record of self-policing and compliance",
+    "3 incorrect answers": [
+      "Because self-discipline allows amateurs to avoid paying electricity bills",
+      "Because ITU replaces licenses with commercial permits if discipline fails",
+      "Because self-discipline lowers antenna SWR"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.4, p. 357",
+    "Explanation": "Spectrum authorities allocate valuable spectrum to amateurs because the community demonstrates responsible self-discipline."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "What is 'bathroom humor' in the context of the amateur radio Code of Conduct?",
+    "Correct answer": "Crude, inappropriate, or vulgar jokes that should be strictly avoided on the air",
+    "3 incorrect answers": [
+      "Jokes about water pipe plumbing",
+      "Technical hum in audio power supplies",
+      "Q-codes spoken backward"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.2.1, p. 361",
+    "Explanation": "Etiquette rule: If you wouldn't tell the joke to a 10-year-old child, do not tell it on the radio."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "Can an amateur operator encode transmissions to hide the meaning of their conversation?",
+    "Correct answer": "No, communications cannot be encoded for the purpose of obscuring meaning",
+    "3 incorrect answers": [
+      "Yes, using 128-bit AES encryption",
+      "Yes, if contacting military stations",
+      "Yes, on 70cm digital bands"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.4, p. 315",
+    "Explanation": "ITU Radio Regulations explicitly prohibit ciphering or encoding transmissions to conceal meaning (except satellite control signals)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct",
+    "Question": "How should a station respond if another operator politely informs them that their signal is overmodulating or splattering?",
+    "Correct answer": "Acknowledge the report, thank the operator, reduce audio drive/gain, and check equipment settings",
+    "3 incorrect answers": [
+      "Ignore the report and turn up the power",
+      "Argue that overmodulation improves readability",
+      "Report the station for QRM"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.1, p. 357",
+    "Explanation": "Accept technical reports gratefully and adjust ALC/drive levels immediately to maintain clean emissions."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "An RS signal report of '35' received during a voice contact means:",
+    "Correct answer": "Signal is readable with considerable difficulty, and strength 5 on the S-meter",
+    "3 incorrect answers": [
+      "Unreadable signal, 3 on the S-meter",
+      "Strong signal, 5 on the S-meter",
+      "Perfectly readable signal, 3 on the S-meter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.5, p. 368 (Table 29-A) / Sample Exam Q48",
+    "Explanation": "Readability R3 = Readable with considerable difficulty; Strength S5 = Fairly good signal."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What is the correct voice format for a directed general call to stations in Japan?",
+    "Correct answer": "CQ Japan CQ Japan CQ Japan from EI5ABC EI5ABC EI5ABC standing by",
+    "3 incorrect answers": [
+      "CQ CQ CQ from EI5ABC EI5ABC EI5ABC standing by",
+      "CQ DX Japan CQ DX Japan from EI5ABC standing by",
+      "CQ Asia Japan from EI5ABC"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.3.3, p. 364 / Sample Exam Q49",
+    "Explanation": "Directed CQ format: 'CQ [Location] CQ [Location] from [Callsign] standing by'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What does the Morse Code message 'CQ CQ CQ DE EI3XYZ <AR>' indicate?",
+    "Correct answer": "EI3XYZ is making a general call for a contact",
+    "3 incorrect answers": [
+      "Someone is calling EI3XYZ",
+      "EI3XYZ is giving a signal report",
+      "EI3XYZ is closing station"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.3.2, p. 363 / Sample Exam Q50",
+    "Explanation": "'CQ ... DE EI3XYZ <AR>' is the standard Morse code general call inviting any station to respond."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "If you experience regular harmful interference from an unknown source suspected to be located abroad, how should it be reported?",
+    "Correct answer": "Report it to IARU Monitoring System (IARUMS) Region 1 via the IRTS IARU Liaison Officer",
+    "3 incorrect answers": [
+      "Report it to An Garda Síochána",
+      "Report it directly to the UN Security Council",
+      "Transmit jammer signals back"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.6.1, p. 371 / Sample Exam Q51",
+    "Explanation": "International spectrum interference should be documented and reported through the national society (IRTS) to IARUMS Region 1."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "Why is using the call sign suffix '/QRP' considered bad practice or illegal in some jurisdictions?",
+    "Correct answer": "It is an unapproved non-standard suffix not recognized by national licensing frameworks",
+    "3 incorrect answers": [
+      "Because low power operation is prohibited by CEPT",
+      "Because QRP requires a special Morse test",
+      "Because /QRP stands for quick repeater pass"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.8, p. 330 & Ch 24.4, p. 337 / Sample Exam Q52",
+    "Explanation": "Non-standard suffixes like /QRP or /QRO are not authorized in licensing regulations and create confusion in international logbooks."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What three components make up a standard RST signal report exchanged on CW contacts?",
+    "Correct answer": "Readability (1-5), Signal Strength (1-9), Tone (1-9)",
+    "3 incorrect answers": [
+      "Receiver type, SWR ratio, Transmitter power",
+      "Range, Speed, Time",
+      "Region, Sector, Frequency"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.5, p. 367",
+    "Explanation": "RST stands for Readability (1-5), Signal Strength (1-9), and Tone (1-9)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What does an S-meter reading of '59+20 dB' mean?",
+    "Correct answer": "Readability 5 (perfect), Signal Strength S9 plus 20 decibels above S9",
+    "3 incorrect answers": [
+      "Signal strength is 59 out of 20",
+      "Readability is 20, strength is 59",
+      "Receiver gain is set to 20 dB"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.5, p. 369",
+    "Explanation": "Signal reports above S9 are given in decibels over S9 (e.g. 59 plus 20 dB over 9)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What does a Tone report of less than 'T9' indicate on a CW signal report?",
+    "Correct answer": "A defect or unwanted hum/ripple in the transmitter signal's tonal quality",
+    "3 incorrect answers": [
+      "That the station is using an electronic keyer",
+      "That the operator is sending at high speed",
+      "That the antenna SWR is 1:1"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.5, p. 369",
+    "Explanation": "Modern clean CW transmitters produce T9 (pure tone). T1-T8 indicates AC ripple, key clicks, or chirp defects."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What is the meaning of 'R5' in a readability report?",
+    "Correct answer": "Perfectly readable",
+    "3 incorrect answers": [
+      "Unreadable",
+      "Readable with difficulty",
+      "Barely readable"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.5, p. 368 (Table 29-A)",
+    "Explanation": "Readability scale: R1=Unreadable, R2=Barely readable, R3=Readable with difficulty, R4=Readable practically no difficulty, R5=Perfectly readable."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What does the prosign '<AR>' mean at the end of an initial call in Morse code?",
+    "Correct answer": "End of message / end of call",
+    "3 incorrect answers": [
+      "End of work / closing station",
+      "Break in",
+      "Error"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.3.2, p. 363 (Footnote 456)",
+    "Explanation": "<AR> (sent as a concatenated prosign .-.-.) denotes end of message / call."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What is simplex operation?",
+    "Correct answer": "Both stations transmit and receive on the exact same single frequency (one station speaks at a time)",
+    "3 incorrect answers": [
+      "Stations transmit on one frequency and receive on a different frequency",
+      "Using two antennas simultaneously",
+      "Transmitting voice and data together"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.1, p. 360 (Footnote 449)",
+    "Explanation": "Simplex operation uses one single frequency for both transmitting and receiving sequentially."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What is duplex / repeater operation?",
+    "Correct answer": "Transmitting on one frequency and receiving on a different frequency through a repeater station",
+    "3 incorrect answers": [
+      "Transmitting on the same frequency without a repeater",
+      "Transmitting using two microphones",
+      "Using Morse code and voice at the same time"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.10, p. 331 & Ch 29.1, p. 360",
+    "Explanation": "Repeater / split operation uses separate transmit and receive frequencies (duplex offset)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What is the first thing an operator should do when replying to a CQ call on voice?",
+    "Correct answer": "State the call sign of the station called, followed by 'this is', and then your own call sign clearly (using phonetics)",
+    "3 incorrect answers": [
+      "Call 'CQ CQ CQ' back to them",
+      "Shout your name and street address",
+      "Send a 1000 Hz calibration tone"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.4, p. 366",
+    "Explanation": "Reply format: '[Their Callsign] this is [Your Callsign in Phonetics] standing by'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What prosign or phrase is used on voice to hand over transmission back to the other station?",
+    "Correct answer": "'Over' (or 'Over to you')",
+    "3 incorrect answers": [
+      "'Out'",
+      "'Roger Roger'",
+      "'QRT'"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.1, p. 360",
+    "Explanation": "'Over' indicates invitation for the other station to transmit. ('Out' indicates end of contact)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "Why is saying 'Over and Out' contradictory in proper radio procedures?",
+    "Correct answer": "'Over' invites a reply, whereas 'Out' ends the contact with no reply expected",
+    "3 incorrect answers": [
+      "Because 'Out' means you are outdoors",
+      "Because 'Over' means you are changing frequency",
+      "Because it is prohibited by ICNIRP"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.1, p. 360",
+    "Explanation": "'Over' asks the other station to reply; 'Out' means contact is finished and station is clearing. Using both together is contradictory."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What does 'Roger' mean when spoken during a voice QSO?",
+    "Correct answer": "I have received and understood your last transmission completely",
+    "3 incorrect answers": [
+      "My name is Roger",
+      "Yes, I agree with your political opinion",
+      "I am changing frequency now"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349 (Footnote 438)",
+    "Explanation": "'Roger' (derived from R = Received) means 'all received correctly'. It does not mean 'yes'."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What should you do if another station reports that your transmission is interfering with an ongoing net?",
+    "Correct answer": "Politely apologize, immediately cease transmitting on that frequency, and QSY to a clear frequency",
+    "3 incorrect answers": [
+      "Argue that you have equal rights to jam their net",
+      "Increase power by 10 dB",
+      "Switch to FM mode"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 28.3, p. 357 & Ch 29.6, p. 370",
+    "Explanation": "Non-interference is a statutory requirement. Yield gracefully and move to an unoccupied frequency."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What does 'RST 579' mean on a CW contact?",
+    "Correct answer": "Readability 5 (perfect), Signal Strength 7 (moderately strong), Tone 9 (perfect tone)",
+    "3 incorrect answers": [
+      "Frequency is 579 kHz",
+      "Readability 7, Strength 5, Tone 9",
+      "Station power is 579 Watts"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.5, p. 367",
+    "Explanation": "R=5 (Perfectly readable), S=7 (Moderately strong signal), T=9 (Perfect clear tone)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "In Morse code QSOs, what abbreviation acknowledges a complete transmission and hands control back?",
+    "Correct answer": "KN (or K)",
+    "3 incorrect answers": [
+      "SK",
+      "CL",
+      "73"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 29.4, p. 366",
+    "Explanation": "K (or KN for specific station) invites the other station to transmit."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.7 Operating Procedures and Non-Interference",
+    "Question": "What traditional greeting abbreviation means 'Best regards' in amateur radio contacts?",
+    "Correct answer": "73",
+    "3 incorrect answers": [
+      "88",
+      "55",
+      "99"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 26.3, p. 349",
+    "Explanation": "73 = Best regards. (88 = Love and kisses)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "According to ITU Radio Regulations, amateur communications between stations in different countries are permitted:",
+    "Correct answer": "Unless the administration of one of the countries concerned has notified objection to such communications",
+    "3 incorrect answers": [
+      "Only if a formal bilateral military treaty exists between the nations",
+      "Only if both stations are operated by government employees",
+      "Only using 10W maximum power"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.4, p. 315 / Sample Exam Q53",
+    "Explanation": "Article 25.1 permits international amateur contacts unless an administration explicitly notifies ITU of objection."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What is the official ITU emission designator for Single Sideband (SSB) suppressed carrier voice?",
+    "Correct answer": "J3E",
+    "3 incorrect answers": [
+      "A1A",
+      "A3E",
+      "F3E"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.6, p. 317 / Sample Exam Q54",
+    "Explanation": "J3E = Single sideband, suppressed carrier, analogue voice telephony."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What UN specialized agency governs global international telecommunications and spectrum allocations?",
+    "Correct answer": "International Telecommunication Union (ITU)",
+    "3 incorrect answers": [
+      "International Amateur Radio Union (IARU)",
+      "CEPT",
+      "UNESCO"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.1, p. 314",
+    "Explanation": "The ITU is the United Nations specialized agency for information and communication technologies."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "Which ITU Region includes Ireland, Europe, Africa, and the former Soviet Union?",
+    "Correct answer": "Region 1",
+    "3 incorrect answers": [
+      "Region 2",
+      "Region 3",
+      "Region 4"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.2, p. 314",
+    "Explanation": "ITU Region 1 covers Europe, Africa, the Middle East, and northern Asia. (Region 2 = Americas; Region 3 = Asia-Pacific)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "How does the ITU define the 'Amateur Service'?",
+    "Correct answer": "A radiocommunication service for self-training, intercommunication, and technical investigations carried out solely with a personal aim and without pecuniary interest",
+    "3 incorrect answers": [
+      "A commercial broadcasting service for profit",
+      "A military backup communication network",
+      "A paid emergency dispatch network"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.3, p. 315",
+    "Explanation": "ITU Article 1.56 defines Amateur Service as non-commercial, self-training, and technical investigation without financial gain."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What priority rights do primary spectrum allocations possess over secondary allocations?",
+    "Correct answer": "Primary users have priority and protection from harmful interference caused by secondary users",
+    "3 incorrect answers": [
+      "Primary and secondary users have identical rights",
+      "Secondary users can force primary users to change frequency",
+      "Primary users are limited to 10W power"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.5, p. 316",
+    "Explanation": "Primary services have priority band rights; secondary services cannot cause harmful interference to primary stations nor claim protection from them."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What is the official ITU emission designator for CW Morse telegraphy using on-off keying?",
+    "Correct answer": "A1A",
+    "3 incorrect answers": [
+      "J3E",
+      "F1B",
+      "F3E"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.6, p. 317",
+    "Explanation": "A1A = Double-sideband AM, single channel digital info by ear (Morse code CW)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What is the official ITU emission designator for FM voice telephony?",
+    "Correct answer": "F3E",
+    "3 incorrect answers": [
+      "J3E",
+      "A3E",
+      "F1B"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.6, p. 317",
+    "Explanation": "F3E = Frequency modulation, single channel analogue voice telephony."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What is the official ITU emission designator for RTTY / digital machine-decoded data using FSK?",
+    "Correct answer": "F1B",
+    "3 incorrect answers": [
+      "A1A",
+      "J3E",
+      "F3E"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.6, p. 317",
+    "Explanation": "F1B = Frequency shift keying, single channel automatic telegraphy (RTTY/FT8)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What is the official ITU emission designator for full double-sideband AM voice?",
+    "Correct answer": "A3E",
+    "3 incorrect answers": [
+      "A1A",
+      "J3E",
+      "F3E"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.6, p. 317",
+    "Explanation": "A3E = Double sideband AM voice telephony."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "Under ITU Radio Regulations, what restriction applies to international third-party messages?",
+    "Correct answer": "Third-party messages are prohibited unless an explicit agreement exists between the countries involved or during official emergencies",
+    "3 incorrect answers": [
+      "Third-party messages are always freely permitted everywhere",
+      "Third-party messages are allowed if written in French",
+      "Third-party messages require a commercial permit"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.4, p. 315",
+    "Explanation": "International contacts are limited to remarks of a personal character and amateur technique; third-party messages require explicit agreements."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.8 ITU Radio Regulations",
+    "Question": "What non-governmental body represents the interests of amateur radio before the ITU?",
+    "Correct answer": "IARU (International Amateur Radio Union)",
+    "3 incorrect answers": [
+      "CEPT",
+      "ComReg",
+      "IEEE"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 20.2, p. 314",
+    "Explanation": "The IARU represents the global amateur radio community at the ITU."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What rights are granted to an Irish CEPT Class 1 licence holder under Recommendation T/R 61-01 when visiting a participating country?",
+    "Correct answer": "To operate an amateur station during short temporary visits without obtaining an individual visitor's licence",
+    "3 incorrect answers": [
+      "To permanently establish a radio broadcasting station",
+      "To issue amateur licenses to local residents",
+      "To operate at double the host country's power limit"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.2, p. 320 / Sample Exam Q55",
+    "Explanation": "CEPT T/R 61-01 allows reciprocal short-visit operating privileges without requiring temporary local license applications."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign format must an Irish licensee (e.g. EI8XYZ) use while visiting England under CEPT T/R 61-01?",
+    "Correct answer": "M/EI8XYZ",
+    "3 incorrect answers": [
+      "EI8XYZ/M",
+      "G/EI8XYZ",
+      "M0EI8XYZ"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.3, p. 322 & Ch 21.4, p. 324 / Sample Exam Q56",
+    "Explanation": "The visitor prepends the host country prefix (M for England) separated by a stroke: M/EI8XYZ."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "Under CEPT T/R 61-01, what is the typical maximum duration allowed for a short temporary visit before local registration is required?",
+    "Correct answer": "Up to 3 months (90 days), depending on national implementation",
+    "3 incorrect answers": [
+      "12 months",
+      "14 days",
+      "Indefinitely"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.2, p. 322 / Sample Exam Q57",
+    "Explanation": "CEPT T/R 61-01 covers short temporary visits, defined by host countries usually up to 90 days / 3 months."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What CEPT Recommendation defines the Harmonised Amateur Radio Examination Certificate (HAREC) standard?",
+    "Correct answer": "T/R 61-02",
+    "3 incorrect answers": [
+      "T/R 61-01",
+      "ECC 09/45",
+      "ITU 1544"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.1, p. 320",
+    "Explanation": "T/R 61-02 defines the standard HAREC examination syllabus accepted across CEPT member nations."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "When visiting another CEPT country under T/R 61-01, whose frequency allocations and power limits must you obey?",
+    "Correct answer": "The host country's national amateur regulations (or your home licence limits, whichever is more restrictive)",
+    "3 incorrect answers": [
+      "Strictly your home country's regulations only",
+      "The USA FCC rules",
+      "Any power limit up to 1000W"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.2, p. 321",
+    "Explanation": "Visitors must strictly observe the frequencies, modes, and power limits in force in the visited country."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign prefix should an Irish operator use while visiting France under CEPT T/R 61-01?",
+    "Correct answer": "F/EI5ABC",
+    "3 incorrect answers": [
+      "EI5ABC/F",
+      "F0EI5ABC",
+      "FR/EI5ABC"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.3, p. 322",
+    "Explanation": "Prepend host country prefix: F/EI5ABC."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign prefix should an Irish operator use while visiting Spain under CEPT T/R 61-01?",
+    "Correct answer": "EA/EI5ABC",
+    "3 incorrect answers": [
+      "E/EI5ABC",
+      "SP/EI5ABC",
+      "EI5ABC/EA"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "Spain's national prefix is EA; the call sign format is EA/EI5ABC."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign prefix should an Irish operator use while visiting Germany under CEPT T/R 61-01?",
+    "Correct answer": "DL/EI5ABC",
+    "3 incorrect answers": [
+      "G/EI5ABC",
+      "DE/EI5ABC",
+      "EI5ABC/DL"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "Germany's CEPT visitor prefix is DL; format is DL/EI5ABC."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign prefix should an Irish operator use while visiting Italy under CEPT T/R 61-01?",
+    "Correct answer": "I/EI5ABC",
+    "3 incorrect answers": [
+      "IT/EI5ABC",
+      "IK/EI5ABC",
+      "EI5ABC/I"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "Italy's CEPT visitor prefix is I; format is I/EI5ABC."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "Has the United States adopted CEPT Recommendation T/R 61-01 for temporary visitors?",
+    "Correct answer": "Yes, US FCC permits CEPT Class 1 holders to operate in the US as short-term visitors using W/ or K/ prefixes",
+    "3 incorrect answers": [
+      "No, the USA does not recognize CEPT licences",
+      "Yes, but only for Morse code on 40m",
+      "Only if paying a $100 registration fee"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.1, p. 320 (Footnote 390)",
+    "Explanation": "The USA adopted T/R 61-01 (short visits), but has NOT adopted T/R 61-02 for issuing permanent US licenses."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign prefix should an Irish operator use while visiting the USA under CEPT T/R 61-01?",
+    "Correct answer": "W/EI5ABC (or K/EI5ABC, N/EI5ABC)",
+    "3 incorrect answers": [
+      "US/EI5ABC",
+      "USA/EI5ABC",
+      "EI5ABC/W"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 324 (Table 21-C)",
+    "Explanation": "USA CEPT visitor prefix is W/ or K/ or N/ (e.g. W/EI5ABC or W2/EI5ABC)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What distinguishes an Irish CEPT Class 1 licence from a CEPT Class 2 licence?",
+    "Correct answer": "Class 1 requires demonstrated Morse code proficiency (5 WPM), whereas Class 2 does not",
+    "3 incorrect answers": [
+      "Class 1 allows 400W power while Class 2 allows only 10W",
+      "Class 1 includes satellite privileges while Class 2 does not",
+      "Class 1 is valid for 10 years while Class 2 is valid for 1 year"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.3, p. 328",
+    "Explanation": "Both Class 1 and Class 2 grant full HAREC spectrum privileges under CEPT; Class 1 is issued upon proof of Morse code proficiency."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What organization publishes CEPT ECC recommendations?",
+    "Correct answer": "European Conference of Postal and Telecommunications Administrations (CEPT)",
+    "3 incorrect answers": [
+      "International Amateur Radio Union",
+      "European Union Parliament",
+      "ComReg Ireland"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.1, p. 320",
+    "Explanation": "CEPT ECC (Electronic Communications Committee) publishes harmonization recommendations."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "Can an Irish HAREC certificate be used to apply for a permanent amateur licence when taking up residence in another CEPT country?",
+    "Correct answer": "Yes, under CEPT Recommendation T/R 61-02",
+    "3 incorrect answers": [
+      "No, you must re-take the host country's exam in their native language",
+      "Only if you hold a Class 1 Morse license",
+      "Only after living in the host country for 5 years"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.1, p. 320",
+    "Explanation": "T/R 61-02 allows holders moving permanently to a participating CEPT nation to obtain a local equivalent license without re-examination."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.9 CEPT Regulations",
+    "Question": "What call sign prefix is used when visiting Portugal under CEPT T/R 61-01?",
+    "Correct answer": "CT/EI5ABC",
+    "3 incorrect answers": [
+      "PO/EI5ABC",
+      "PT/EI5ABC",
+      "EI5ABC/CT"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 21.4, p. 323 (Table 21-A)",
+    "Explanation": "Portugal's prefix is CT; visitor format is CT/EI5ABC."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What item MUST be recorded in an Irish amateur station's official logbook for every day of operation?",
+    "Correct answer": "Power level used (in Watts or dBW)",
+    "3 incorrect answers": [
+      "Details of the antenna type and height",
+      "Location of stations contacted",
+      "Microphone serial number"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.9, p. 331 / Sample Exam Q58",
+    "Explanation": "Logbook requirements under ComReg 09/45 mandate recording date, UTC times, band, mode, power level (W or dBW), and callsigns contacted."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "Under ComReg rules, how often must an Irish amateur station licensee confirm their station particulars (e.g. address and contact details)?",
+    "Correct answer": "Every 5 years",
+    "3 incorrect answers": [
+      "Every 12 months",
+      "Every 10 years",
+      "Only once when first licensed"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.4, p. 328 / Sample Exam Q60",
+    "Explanation": "Irish licenses remain valid indefinitely provided the licensee confirms their details with ComReg every 5 years."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What statutory body is responsible for amateur radio station licensing and spectrum regulation in Ireland?",
+    "Correct answer": "Commission for Communications Regulation (ComReg)",
+    "3 incorrect answers": [
+      "Irish Radio Transmitters Society (IRTS)",
+      "Department of Defence",
+      "An Garda Síochána"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.2, p. 326",
+    "Explanation": "ComReg (Commission for Communications Regulation) is the statutory body regulating electronic communications and spectrum in Ireland."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What primary legislative act governs amateur station licensing in Ireland?",
+    "Correct answer": "Wireless Telegraphy Act (Amateur Station Licence Regulations 2009)",
+    "3 incorrect answers": [
+      "Broadcasting Act 1990",
+      "Telecommunications Act 1983",
+      "Disability Act 2005"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.1, p. 326",
+    "Explanation": "Amateur radio licensing in Ireland is governed by the Wireless Telegraphy (Amateur Station Licence) Regulations 2009."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "Who is legally permitted to operate an Irish amateur radio station?",
+    "Correct answer": "The licensee, or an unlicensed person operating under the direct personal supervision of the licensee",
+    "3 incorrect answers": [
+      "Anyone who turns on the power switch",
+      "Only members of the IRTS committee",
+      "Anyone holding a commercial broadcast permit"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.1.1, p. 326",
+    "Explanation": "The licensee is legally responsible; unlicensed persons may only transmit under the direct personal supervision of the licensee."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What technical measuring instrument MUST an Irish amateur station licensee possess according to ComReg guidelines?",
+    "Correct answer": "A device capable of measuring Standing Wave Ratio (SWR bridge)",
+    "3 incorrect answers": [
+      "A calibrated spectrum analyzer",
+      "An oscilloscope",
+      "A field strength meter"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.11, p. 331",
+    "Explanation": "ComReg Guidelines 09/45 specifically mandate that the licensee must have an SWR measuring device and an accurate frequency check method."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "Under what circumstances can ComReg suspend or revoke an amateur station licence?",
+    "Correct answer": "In the event of serious or repeated non-compliance with licence conditions",
+    "3 incorrect answers": [
+      "If the licensee fails to make 100 contacts per year",
+      "If the licensee operates on 20m during nighttime",
+      "If the licensee changes their antenna type"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.4, p. 328",
+    "Explanation": "ComReg may suspend or revoke a licence for serious or repeated non-compliance with statutory regulations or licence terms."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What clock time format must be used for recording transmission times in an Irish station logbook?",
+    "Correct answer": "Coordinated Universal Time (UTC)",
+    "3 incorrect answers": [
+      "Local Irish Summer Time (IST)",
+      "Greenwich Mean Time plus 1 hour",
+      "Eastern Standard Time"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.9, p. 331",
+    "Explanation": "Logbook entries must be recorded in Coordinated Universal Time (UTC)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "Are CQ calls that receive no answer required to be logged in the station logbook under ComReg 09/45 Revision R6?",
+    "Correct answer": "No, unanswered CQ calls are no longer required to be logged under R6",
+    "3 incorrect answers": [
+      "Yes, every single CQ call must be logged",
+      "Yes, but only on HF bands",
+      "Yes, if using Morse code"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.9, p. 331 (Footnote 406)",
+    "Explanation": "Under ComReg 09/45 Revision R6, the former requirement to log unanswered CQ calls was officially removed."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What maximum transmit power is permitted for an amateur station operating maritime mobile (/MM) in territorial waters?",
+    "Correct answer": "10 Watts (10 dBW) PEP",
+    "3 incorrect answers": [
+      "400 Watts PEP",
+      "100 Watts PEP",
+      "50 Watts PEP"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.8, p. 330 & Ch 25.3.3, p. 343",
+    "Explanation": "Maritime mobile (/MM) operation is strictly limited to a maximum power of 10W PEP (10 dBW)."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What mark indicates that commercially manufactured radio transmitting equipment meets EU safety and EMC standards?",
+    "Correct answer": "CE mark",
+    "3 incorrect answers": [
+      "ISO 9001",
+      "FCC Approved",
+      "Safe Electric"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.12, p. 332",
+    "Explanation": "The CE type approval mark indicates compliance with EU RED, EMC, and electrical safety directives."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "If a licensed radio amateur constructs their own transmitter (DIY) without a CE mark, who assumes legal responsibility for safety and non-interference?",
+    "Correct answer": "The licensed radio amateur operator/builder",
+    "3 incorrect answers": [
+      "ComReg",
+      "The manufacturer of the soldering iron",
+      "The IRTS"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.12, p. 332",
+    "Explanation": "Radio amateurs are legally permitted to build un-marked homebrew transmitters, but assume 100% personal responsibility for EMC, spurious limits, and safety."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What special permit is required to operate a temporary amateur radio station at a public exhibition or festival?",
+    "Correct answer": "Special Event Licence",
+    "3 incorrect answers": [
+      "Club Licence",
+      "Maritime Mobile Permit",
+      "Commercial Broadcast Permit"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.6, p. 329",
+    "Explanation": "ComReg issues Special Event Licences (often with special call signs like EI90IRTS) for temporary public demonstrations or historical events."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What is the statutory fee refund policy if an amateur licence is cancelled or revoked by ComReg?",
+    "Correct answer": "Licence fees will not be refunded",
+    "3 incorrect answers": [
+      "Pro-rata refund for remaining years",
+      "100% full refund",
+      "Refund minus €10 processing fee"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.4, p. 328",
+    "Explanation": "ComReg regulations state licence fees are non-refundable in the event of cancellation or revocation."
+  },
+  {
+    "Section": "Section B: Operating Rules, Procedures, Regulations",
+    "Subsection": "B.10 Irish Laws, Regulations, and Licence Conditions",
+    "Question": "What maximum power is permitted for land mobile (/M) operation on HF primary bands (80m, 40m, 20m, 15m, 10m) in Ireland?",
+    "Correct answer": "100 Watts (20 dBW)",
+    "3 incorrect answers": [
+      "400 Watts (26 dBW)",
+      "10 Watts (10 dBW)",
+      "50 Watts (17 dBW)"
+    ],
+    "Source": "IRTS HAREC Study Guide Ch 22.7, p. 329",
+    "Explanation": "Land mobile (/M) operation on primary HF bands is limited to 100W PEP (20 dBW)."
+  }
+]
