@@ -1,0 +1,17 @@
+{
+  "name": "vhfready",
+  "private": true,
+  "version": "0.0.0",
+  "description": "VHFReady.com — radio exam practice platform",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "validate:content": "npm run validate -w @vhfready/content-validation",
+    "typecheck": "npm run typecheck -w @vhfready/content-validation",
+    "lint": "npm run lint -w @vhfready/content-validation"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
