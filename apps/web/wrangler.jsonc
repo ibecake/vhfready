@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "vhfready",
+  "compatibility_date": "2025-03-01",
+  "main": "./workers/app.ts",
+  "assets": {
+    "directory": "./build/client"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+.wrangler/
+.dev.vars
+.turbo/
+coverage/
+*.tsbuildinfo
+apps/web/.react-router/

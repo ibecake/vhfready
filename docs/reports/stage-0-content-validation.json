@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-09T15:41:21.630Z",
+  "summaries": [
+    {
+      "file": "harec_question_bank_v2.json",
+      "recordCount": 301,
+      "errors": 0,
+      "warnings": 2,
+      "infos": 1
+    },
+    {
+      "file": "harec_flashcards_v2.json",
+      "recordCount": 301,
+      "errors": 0,
+      "warnings": 1,
+      "infos": 0
+    },
+    {
+      "file": "harec_mock_exams_v2.json",
+      "recordCount": 5,
+      "errors": 0,
+      "warnings": 6,
+      "infos": 5
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "MISSING_SOURCE_ID",
+      "message": "All 301 question-bank records lack supplied id/sourceId fields",
+      "file": "harec_question_bank_v2.json"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_QUALIFICATION_FIELD",
+      "message": "Question bank has no explicit qualification/country field; do not invent marine VHF qualification codes",
+      "file": "harec_question_bank_v2.json"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SOURCE_ID",
+      "message": "All 301 flashcard records lack supplied id/sourceId fields",
+      "file": "harec_flashcards_v2.json"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_SOURCE_ID",
+      "message": "All 5 mock exam records lack supplied id fields; embedded questions also lack bank ID references",
+      "file": "harec_mock_exams_v2.json"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_TIME_LIMIT",
+      "message": "Mock exam has no time-limit field; do not invent official examination timing",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 1",
+      "index": 0
+    },
+    {
+      "severity": "info",
+      "code": "PASS_MARK_FREE_TEXT",
+      "message": "Pass mark is free text: 60% in Section A (18/30) AND 60% in Section B (18/30)",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 1",
+      "index": 0
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_TIME_LIMIT",
+      "message": "Mock exam has no time-limit field; do not invent official examination timing",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 2",
+      "index": 1
+    },
+    {
+      "severity": "info",
+      "code": "PASS_MARK_FREE_TEXT",
+      "message": "Pass mark is free text: 60% in Section A (18/30) AND 60% in Section B (18/30)",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 2",
+      "index": 1
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_TIME_LIMIT",
+      "message": "Mock exam has no time-limit field; do not invent official examination timing",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 3",
+      "index": 2
+    },
+    {
+      "severity": "info",
+      "code": "PASS_MARK_FREE_TEXT",
+      "message": "Pass mark is free text: 60% in Section A (18/30) AND 60% in Section B (18/30)",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 3",
+      "index": 2
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_TIME_LIMIT",
+      "message": "Mock exam has no time-limit field; do not invent official examination timing",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 4",
+      "index": 3
+    },
+    {
+      "severity": "info",
+      "code": "PASS_MARK_FREE_TEXT",
+      "message": "Pass mark is free text: 60% in Section A (18/30) AND 60% in Section B (18/30)",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 4",
+      "index": 3
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_TIME_LIMIT",
+      "message": "Mock exam has no time-limit field; do not invent official examination timing",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 5",
+      "index": 4
+    },
+    {
+      "severity": "info",
+      "code": "PASS_MARK_FREE_TEXT",
+      "message": "Pass mark is free text: 60% in Section A (18/30) AND 60% in Section B (18/30)",
+      "file": "harec_mock_exams_v2.json",
+      "examTitle": "Irish HAREC Mock Exam Paper 5",
+      "index": 4
+    },
+    {
+      "severity": "info",
+      "code": "BANK_QUESTIONS_ABSENT_FROM_MOCKS",
+      "message": "102 question-bank records do not appear in any mock exam",
+      "file": "harec_question_bank_v2.json"
+    },
+    {
+      "severity": "warning",
+      "code": "PRODUCT_CONTENT_MISMATCH",
+      "message": "PRODUCT_CONTENT_MISMATCH: Platform brief describes marine VHF qualifications; supplied JSON is Irish HAREC amateur radio. Do not invent marine content."
+    },
+    {
+      "severity": "warning",
+      "code": "PDF_REFERENCE_ONLY",
+      "message": "PDF_REFERENCE_ONLY: IRTS PDF files in repo must not be scraped into educational records by the agent."
+    }
+  ],
+  "stats": {
+    "questionBank": {
+      "sections": {
+        "Section A: Technical": 146,
+        "Section B: Operating Rules, Procedures, Regulations": 155
+      },
+      "subsections": {
+        "A.1 Safety": 20,
+        "A.2 Interference and Immunity": 18,
+        "A.3 Electrical, Electromagnetic, and Radio Theory": 20,
+        "A.4 Components and Circuits": 18,
+        "A.5 Transmitters and Receivers": 20,
+        "A.6 Antennas and Transmission Lines": 20,
+        "A.7 Propagation": 18,
+        "A.8 Measurements": 12,
+        "B.1 Phonetic Alphabet": 10,
+        "B.2 Q-Codes": 18,
+        "B.3 International Distress Signs, Emergency Traffic and Natural Disaster Communications": 15,
+        "B.4 Call Signs": 15,
+        "B.5 Radio Spectrum Allocation in Ireland and IARU Band Plans": 20,
+        "B.6 Social Responsibility of Radio Amateur Operation and the Code of Conduct": 15,
+        "B.7 Operating Procedures and Non-Interference": 20,
+        "B.8 ITU Radio Regulations": 12,
+        "B.9 CEPT Regulations": 15,
+        "B.10 Irish Laws, Regulations, and Licence Conditions": 15
+      },
+      "uniqueQuestions": 301
+    },
+    "flashcards": {
+      "matchedToBank": 301,
+      "orphanCount": 0,
+      "answerPatternMatches": 301
+    },
+    "mockExams": {
+      "examCount": 5,
+      "totalEmbeddedQuestions": 300,
+      "linkedToBank": 300,
+      "unlinkedToBank": 0,
+      "uniqueQuestionsAcrossExams": 199,
+      "bankQuestionsNeverInMock": 102,
+      "examsMissingTimeLimit": 5
+    },
+    "productFlags": [
+      "PRODUCT_CONTENT_MISMATCH: Platform brief describes marine VHF qualifications; supplied JSON is Irish HAREC amateur radio. Do not invent marine content.",
+      "PDF_REFERENCE_ONLY: IRTS PDF files in repo must not be scraped into educational records by the agent."
+    ]
+  }
+}
