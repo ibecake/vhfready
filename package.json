@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "description": "VHFReady.com — radio exam practice platform",
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
     "validate:content": "npm run validate -w @vhfready/content-validation",
-    "typecheck": "npm run typecheck -w @vhfready/content-validation",
-    "lint": "npm run lint -w @vhfready/content-validation"
+    "import:content": "npm run import -w @vhfready/content-import --",
+    "typecheck": "npm run typecheck -w @vhfready/content-validation && npm run typecheck -w @vhfready/content-import && npm run typecheck -w @vhfready/web",
+    "lint": "npm run lint -w @vhfready/content-validation && npm run lint -w @vhfready/content-import && npm run lint -w @vhfready/web",
+    "test": "npm test -w @vhfready/content-validation && npm test -w @vhfready/content-import",
+    "build": "npm run build -w @vhfready/web",
+    "dev": "npm run dev -w @vhfready/web"
   },
   "engines": {
     "node": ">=20"

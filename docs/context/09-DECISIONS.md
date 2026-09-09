@@ -39,10 +39,10 @@ Format: `Dnnn` — date — status — decision — rationale — consequences.
 ## D005 — Auth method
 
 - **Date:** 2026-09-09
-- **Status:** Provisional — finalise in Stage 3
-- **Decision (provisional):** Email + password with verification and reset.
-- **Rationale:** Familiar for adult learners; works well with Supabase Auth.
-- **Consequences:** Implement recovery flows; revisit if product prefers magic link only.
+- **Status:** Accepted (Stage 3)
+- **Decision:** Email + password with email verification and password reset via Supabase Auth.
+- **Rationale:** Familiar for adult learners; works well with Supabase Auth session cookies on React Router SSR.
+- **Consequences:** `/signup`, `/login`, `/logout`, `/auth/callback`, account disable flow implemented; password reset uses Supabase hosted recovery.
 
 ## D006 — Cloudflare Load Balancing
 
@@ -51,3 +51,11 @@ Format: `Dnnn` — date — status — decision — rationale — consequences.
 - **Decision:** Do not configure Cloudflare Load Balancing.
 - **Rationale:** Single Worker origin; global edge already distributes delivery.
 - **Consequences:** Document if multi-origin is ever introduced.
+
+## D007 — Monorepo layout
+
+- **Date:** 2026-09-09
+- **Status:** Accepted
+- **Decision:** npm workspaces with `apps/web`, `packages/content-validation`, `packages/content-import`, and `supabase/migrations`.
+- **Rationale:** Keeps Cloudflare app separate from import/validation tooling that needs the service role.
+- **Consequences:** CI runs validate → test → typecheck → build across workspaces.

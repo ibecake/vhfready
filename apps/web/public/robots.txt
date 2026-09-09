@@ -1,0 +1,6 @@
+--
+User-agent: *
+Allow: /
+Allow: /ireland/harec
+
+Sitemap: https://vhfready.com/sitemap.xml

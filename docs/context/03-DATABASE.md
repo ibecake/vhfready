@@ -1,6 +1,6 @@
 # 03 — Database
 
-Stage 0 defines the **intended** conceptual model. Migrations begin in Stage 1. Adjust only if later imports prove a structural need.
+Stage 1 migrations live in `supabase/migrations/`.
 
 ## Design rules
 
@@ -11,62 +11,52 @@ Stage 0 defines the **intended** conceptual model. Migrations begin in Stage 1. 
 5. Enable RLS from day one.
 6. Keep billing entitlement off educational tables (future join/feature flags only).
 
-## Conceptual tables
+## Migration
+
+- `supabase/migrations/20260909153000_stage1_core_schema.sql`
+
+Apply with Supabase CLI (`supabase db push` / `supabase migration up`) against the project linked for this environment.
+
+## Tables (implemented)
 
 ### Identity & admin
 
-- `profiles` — `id` (FK auth.users), display fields, `disabled_at`, timestamps
-- `admin_roles` — `user_id`, `role`, granted_by/at — **not** editable profile metadata
+- `profiles` — FK `auth.users`; email; display_name; `disabled_at`
+- `admin_roles` — not profile metadata; `is_admin()` security-definer helper
 
 ### Catalogue
 
-- `qualifications` — country/code/slug/name; first candidate: Ireland HAREC (admin-confirmed)
-- `sections` / `subsections` — optional normalised catalogue keyed by qualification + supplied labels
+- `qualifications` — seeded draft `ireland/harec` (**inactive**, `needs_review=true`)
+- `sections` / `subsections`
 
 ### Canonical education
 
-- `questions` — qualification_id, section, subsection, question_text, correct_answer, explanation, source, content_hash, source_filename, import_batch_id, active, timestamps  
-  - No silent rewrite of text fields
-- `question_options` — question_id, option_text, is_correct, sort_index (bank order: correct + 3 incorrect as supplied; practice UI may shuffle **display** only)
-- `flashcards` — qualification_id, section, subsection, prompt (Question), answer, content_hash, import metadata, active
-- `mock_exams` — title, pass_mark_text (exact string), total_questions, qualification_id, import metadata, active
-- `mock_exam_questions` — mock_exam_id, question_id (nullable if unresolved → quarantine), question_number, option_order (exact Options array as supplied for that paper)
+- `questions` + `question_options`
+- `flashcards`
+- `mock_exams` + `mock_exam_questions` (`option_order` jsonb; `unresolved` if link fails)
 
-### Review metadata (separate)
+### Review metadata
 
-- `content_reviews` — content_type, content_id, review_status, review_notes, reviewed_by, reviewed_at
-- `content_flags` — reporter, content_type, content_id, category, comment, status, history
+- `content_reviews`
+- `content_flags` + `content_flag_events`
 
 ### User progress
 
 - `user_question_attempts`
-- `user_question_review_state` (mark for later)
+- `user_question_review_state`
 - `user_flashcard_progress`
 - `user_mock_attempts` / `user_mock_answers`
 
 ### Imports
 
-- `imports` — filename, timestamp, counts, dry_run flag
-- `import_errors` — row/index, severity, code, message, payload excerpt
+- `imports` / `import_errors`
 
-## Content hash
-
-SHA-256 over canonical educational fields (stable JSON serialisation). Used for idempotent re-import and change detection.
-
-## IDs
-
-Supplied JSON has **no source IDs**. Use:
-
-- UUID primary keys
-- `content_hash` uniqueness per qualification + content type
-- Optional `source_key` derived from hash prefix for operator display — not an educational claim
-
-## RLS (preview — Stage 1)
+## RLS summary
 
 | Actor | Educational content | Own progress | Others' progress | Admin tables |
 |-------|---------------------|--------------|------------------|--------------|
-| Anon | Public marketing only | none | none | none |
-| Authenticated user | Read active permitted content | CRUD own | none | none |
-| Admin (via admin_roles) | Read all; activate/review metadata | as needed | read metadata | full (server/service paths) |
+| Anon | Active qualifications list only | none | none | none |
+| Authenticated | Read active non-quarantine content | CRUD own | none | none |
+| Admin (`admin_roles`) | Read all; update active/meta | read | read | full |
 
-Users never UPDATE/DELETE canonical educational text via client policies.
+Users cannot INSERT/UPDATE/DELETE canonical educational text via client policies. Service role is used only by server-side import CLI.
