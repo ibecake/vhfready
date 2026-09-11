@@ -1,5 +1,9 @@
-# Local Cloudflare Worker env (do not commit real secrets)
-# No quotes. No spaces around =.
+# Local Cloudflare Worker env for `npm run dev`
+# IMPORTANT:
+# - file must live at apps/web/.dev.vars
+# - no quotes around values
+# - use the anon/public key (not service_role)
+# - restart the dev server after editing
 
-SUPABASE_URL=https://YOUR_PROJECT.supabase.co
-SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+SUPABASE_ANON_KEY=your_anon_public_key_here

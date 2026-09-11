@@ -6,7 +6,7 @@ import {
   type CookieOptions,
 } from "@supabase/ssr";
 import type { AppLoadContext } from "react-router";
-import type { SupabaseClient } from "@supabase/supabase-js";
+import type { SupabaseClient, User } from "@supabase/supabase-js";
 
 export type SupabaseEnv = {
   SUPABASE_URL?: string;
@@ -19,15 +19,34 @@ type CookieToSet = {
   options: CookieOptions;
 };
 
+function cleanEnv(value: string | undefined): string | undefined {
+  if (!value) return undefined;
+  let trimmed = value.trim();
+  // Remove normal or curly quotes if pasted around the value.
+  if (
+    (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+    (trimmed.startsWith("'") && trimmed.endsWith("'")) ||
+    (trimmed.startsWith("“") && trimmed.endsWith("”")) ||
+    (trimmed.startsWith("‘") && trimmed.endsWith("’"))
+  ) {
+    trimmed = trimmed.slice(1, -1).trim();
+  }
+  return trimmed;
+}
+
 export function getSupabaseEnv(context: AppLoadContext): SupabaseEnv {
   const env = context.cloudflare?.env as SupabaseEnv | undefined;
   return {
-    SUPABASE_URL:
-      env?.SUPABASE_URL ?? process.env.SUPABASE_URL ?? process.env.VITE_SUPABASE_URL,
-    SUPABASE_ANON_KEY:
+    SUPABASE_URL: cleanEnv(
+      env?.SUPABASE_URL ??
+        process.env.SUPABASE_URL ??
+        process.env.VITE_SUPABASE_URL,
+    ),
+    SUPABASE_ANON_KEY: cleanEnv(
       env?.SUPABASE_ANON_KEY ??
-      process.env.SUPABASE_ANON_KEY ??
-      process.env.VITE_SUPABASE_ANON_KEY,
+        process.env.SUPABASE_ANON_KEY ??
+        process.env.VITE_SUPABASE_ANON_KEY,
+    ),
   };
 }
 
@@ -43,6 +62,19 @@ export function createSupabaseServerClient(
       supabase: null as SupabaseClient | null,
       headers,
       configured: false as const,
+      supabaseUrlHost: null as string | null,
+    };
+  }
+
+  let supabaseUrlHost: string | null = null;
+  try {
+    supabaseUrlHost = new URL(SUPABASE_URL).host;
+  } catch {
+    return {
+      supabase: null as SupabaseClient | null,
+      headers,
+      configured: false as const,
+      supabaseUrlHost: null,
     };
   }
 
@@ -64,7 +96,12 @@ export function createSupabaseServerClient(
     },
   });
 
-  return { supabase, headers, configured: true as const };
+  return {
+    supabase,
+    headers,
+    configured: true as const,
+    supabaseUrlHost,
+  };
 }
 
 export function jsonWithHeaders<T>(payload: T, init?: ResponseInit) {
@@ -84,17 +121,16 @@ export async function requireUser(request: Request, context: AppLoadContext) {
   } = await supabase.auth.getUser();
   if (!user) {
     headers.set("Location", "/login");
-    throw new Response(null, {
-      status: 302,
-      headers,
-    });
+    throw new Response(null, { status: 302, headers });
   }
-  return { supabase, user, headers };
+  return { supabase, user: user as User, headers };
 }
 
 export async function requireAdmin(request: Request, context: AppLoadContext) {
   const session = await requireUser(request, context);
-  const { data: admin, error } = await session.supabase.rpc("is_admin" as never);
+  const { data: admin, error } = await session.supabase.rpc(
+    "is_admin" as never,
+  );
   if (error || !admin) {
     throw new Response("Forbidden", { status: 403 });
   }
