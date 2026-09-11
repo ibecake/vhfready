@@ -17,24 +17,6 @@ begin
 end;
 $$;
 
-create or replace function public.is_admin(uid uuid default auth.uid())
-returns boolean
-language sql
-stable
-security definer
-set search_path = public
-as $$
-  select exists (
-    select 1
-    from public.admin_roles ar
-    where ar.user_id = uid
-      and ar.revoked_at is null
-  );
-$$;
-
-revoke all on function public.is_admin(uuid) from public;
-grant execute on function public.is_admin(uuid) to authenticated, service_role;
-
 -- ---------------------------------------------------------------------------
 -- Profiles & admin
 -- ---------------------------------------------------------------------------
@@ -64,6 +46,25 @@ create table public.admin_roles (
 
 create index admin_roles_user_id_idx on public.admin_roles (user_id)
   where revoked_at is null;
+
+-- Created after admin_roles so SQL function validation succeeds.
+create or replace function public.is_admin(uid uuid default auth.uid())
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select exists (
+    select 1
+    from public.admin_roles ar
+    where ar.user_id = uid
+      and ar.revoked_at is null
+  );
+$$;
+
+revoke all on function public.is_admin(uuid) from public;
+grant execute on function public.is_admin(uuid) to authenticated, service_role;
 
 -- Auto-create profile on signup
 create or replace function public.handle_new_user()
